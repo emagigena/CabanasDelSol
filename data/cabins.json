@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "name": "Cabaña 1",
+      "description": "Descripción de la cabaña 1",
+      "image": "ruta-de-la-imagen-1.jpg",
+      "availability": [
+        {
+          "name": "Cliente 1",
+          "lastName": "Apellido 1",
+          "address": "Dirección 1",
+          "phoneNumber": "123456789",
+          "email": "cliente1@example.com",
+          "checkInDate": "2023-06-10",
+          "checkOutDate": "2023-06-15"
+        },
+        {
+          "name": "Cliente 2",
+          "lastName": "Apellido 2",
+          "address": "Dirección 2",
+          "phoneNumber": "987654321",
+          "email": "cliente2@example.com",
+          "checkInDate": "2023-07-01",
+          "checkOutDate": "2023-07-05"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cabaña 2",
+      "description": "Descripción de la cabaña 2",
+      "image": "ruta-de-la-imagen-2.jpg",
+      "availability": [
+          {
+              "name": "Cliente 1",
+              "lastName": "Apellido 1",
+              "address": "Dirección 1",
+              "phoneNumber": "123456789",
+              "email": "cliente1@example.com",
+              "checkInDate": "2023-06-10",
+              "checkOutDate": "2023-06-15"
+            },
+            {
+              "name": "Cliente 2",
+              "lastName": "Apellido 2",
+              "address": "Dirección 2",
+              "phoneNumber": "987654321",
+              "email": "cliente2@example.com",
+              "checkInDate": "2023-07-01",
+              "checkOutDate": "2023-07-05"
+            }
+      ]
+    },
+  
+    {
+      "id": 3,
+      "name": "Cabaña 3",
+      "description": "Descripción de la cabaña 3",
+      "image": "ruta-de-la-imagen-2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Cabaña 4",
+      "description": "Descripción de la cabaña 4",
+      "image": "ruta-de-la-imagen-2.jpg",
+      "availability": []
+    },
+    {
+      "id": 5,
+      "name": "Cabaña 5",
+      "description": "Descripción de la cabaña 5",
+      "image": "ruta-de-la-imagen-2.jpg",
+      "availability": []
+    },
+    {
+      "id": 6,
+      "name": "Cabaña 6",
+      "description": "Descripción de la cabaña 6",
+      "image": "ruta-de-la-imagen-1.jpg",
+      "availability": []
+    },
+    {
+      "id": 7,
+      "name": "Cabaña 7",
+      "description": "Descripción de la cabaña 7",
+      "image": "ruta-de-la-imagen-2.jpg",
+      "availability": []
+    },
+    {
+      "id": 8,
+      "name": "Cabaña 8",
+      "description": "Descripción de la cabaña 8",
+      "image": "ruta-de-la-imagen-2.jpg",
+      "availability": []
+    },
+    {
+      "id": 9,
+      "name": "Cabaña 9",
+      "description": "Descripción de la cabaña 9",
+      "image": "ruta-de-la-imagen-2.jpg",
+      "availability": []
+    },
+    {
+      "id": 10,
+      "name": "Cabaña 10",
+      "description": "Descripción de la cabaña 10",
+      "image": "ruta-de-la-imagen-2.jpg",
+      "availability": []
+    }
+  ]
+  
