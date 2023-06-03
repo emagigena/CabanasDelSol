@@ -13,7 +13,7 @@ const montserrat = Montserrat({
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head children={undefined}>
+      <Head>
         <title>Cabañas del Sol</title>
       </Head>
       <main className={`${montserrat.variable} font-sans`}>

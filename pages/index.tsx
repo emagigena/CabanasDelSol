@@ -2,15 +2,15 @@ import React, { useRef } from "react";
 import Header from "../components/Header";
 import ProductCard from "../components/ProductCard";
 import cabanas from "../data/cabins.json";
-// import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css";
 import "@mui/material/";
 
 export default function Gallery() {
-  let coffeeRef = useRef<HTMLDivElement>();
+  let cabinRef = useRef<HTMLDivElement>();
 
   const scrollHandler = (e) => {
     e.preventDefault();
-    coffeeRef.current.scrollIntoView({
+    cabinRef.current.scrollIntoView({
       behavior: "smooth",
       block: "start",
     });
@@ -23,7 +23,7 @@ export default function Gallery() {
           <div className="text-center">
             <p
               className="mt-1 text-4xl font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl"
-              ref={coffeeRef}
+              ref={cabinRef}
             >
               Cabañas del sol
             </p>
