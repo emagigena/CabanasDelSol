@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import img from "../public/hero.jpeg";
+import cabinsData from "../data/cabins.json";
 
 function cn(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -14,17 +15,51 @@ export default function ProductCard({ product }) {
 
   const handleAvailabilityCheck = (event) => {
     event.preventDefault();
-    // Aquí puedes agregar la lógica para verificar la disponibilidad en el archivo JSON
-    // Puedes utilizar el estado `availability` para almacenar el resultado de la consulta y mostrarlo en el componente
 
-    // Ejemplo de verificación de disponibilidad ficticia
-    const isAvailable = Math.random() < 0.5;
-    if (isAvailable) {
-      setAvailability("Available");
-    } else {
-      setAvailability("Not Available");
+    const checkInDate = event.target.elements.checkInDate.value;
+
+    // Verificar la disponibilidad en el archivo JSON
+    const cabin = cabinsData.find((cabin) => cabin.id === product.id);
+    if (cabin) {
+      const isAvailable = cabin.availability.some((booking) => {
+        const bookingStartDate = new Date(booking.checkInDate);
+        const bookingEndDate = new Date(booking.checkOutDate);
+        const selectedDate = new Date(checkInDate);
+
+        return (
+          selectedDate >= bookingStartDate && selectedDate <= bookingEndDate
+        );
+      });
+
+      if (isAvailable) {
+        setAvailability("Available");
+      } else {
+        setAvailability("Not Available");
+
+        // Realizar la reserva y actualizar el archivo JSON
+        updateCabinAvailability(product.id, checkInDate, "fecha de check-out");
+      }
     }
   };
+
+  function updateCabinAvailability(cabinId, checkInDate, checkOutDate) {
+    // Encuentra la cabaña correspondiente en el archivo JSON
+    const cabin = cabinsData.find((cabin) => cabin.id === cabinId);
+
+    // Actualiza la disponibilidad de la cabaña
+    cabin.availability.push({
+      checkInDate,
+      checkOutDate,
+      name: "",
+      lastName: "",
+      address: "",
+      phoneNumber: "",
+      email: ""
+    });
+
+    // Puedes mostrar un mensaje de éxito o hacer otras operaciones necesarias
+    console.log(`Reserva realizada para la cabaña con ID ${cabinId}`);
+  }
 
   return (
     <div>

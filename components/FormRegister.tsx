@@ -1,10 +1,6 @@
 import { Button, Container, TextField } from "@mui/material";
 import React from "react";
 import { useState } from "react";
-// import { MuiPickersUtilsProvider, DatePicker } from "@material-ui/pickers";
-// import DateFnsUtils from "@date-io/date-fns";
-// import { format } from "date-fns";
-// import { es } from "date-fns/locale";
 
 export default function FormRegister({ cabanas }) {
   const [checkInDate, setCheckInDate] = useState("");
@@ -61,25 +57,7 @@ export default function FormRegister({ cabanas }) {
 
   return (
     <Container style={{ backgroundColor: "#f8f8f8", padding: "1rem" }}>
-      {/* <MuiPickersUtilsProvider utils={DateFnsUtils} locale={es}> */}
       <form onSubmit={handleAvailabilityCheck}>
-        {/* <DatePicker
-            label="Check-in Date"
-            value={checkInDate}
-            onChange={setCheckInDate}
-            fullWidth
-            margin="normal"
-            format="dd/MM/yyyy"
-          />
-
-          <DatePicker
-            label="Check-out Date"
-            value={checkOutDate}
-            onChange={setCheckOutDate}
-            fullWidth
-            margin="normal"
-            format="dd/MM/yyyy"
-          /> */}
 
         <TextField
           label="Name"
@@ -139,7 +117,6 @@ export default function FormRegister({ cabanas }) {
           <p className="mt-2 text-sm text-gray-500">{"availability"}</p>
         )}
       </form>
-      {/* </MuiPickersUtilsProvider> */}
     </Container>
   );
 }
