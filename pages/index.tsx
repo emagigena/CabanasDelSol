@@ -1,4 +1,5 @@
-import React, { useRef } from "react";
+import React from "react";
+import { useRef } from "react";
 import Header from "../components/Header";
 import ProductCard from "../components/ProductCard";
 import cabanas from "../data/cabins.json";
