@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function NavBar() {
+
   return (
     <nav className="bg-yellow-900">
       <div className="flex items-center justify-center px-4 py-2">
