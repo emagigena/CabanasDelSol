@@ -1,14 +1,13 @@
-import React from "react";
-import { useRef } from "react";
+import React, { useRef } from "react";
 import Header from "../components/Header";
 import ProductCard from "../components/ProductCard";
 import cabanas from "../data/cabins.json";
 import "semantic-ui-css/semantic.min.css";
 import "@mui/material/";
-import { ImageList, ImageListItem } from "@mui/material/";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import itemData from "../data/itemData.json";
+import LeafletMap from "../components/LeafletMap";
 
 export default function Gallery() {
   let cabinRef = useRef<HTMLDivElement>();
@@ -60,6 +59,9 @@ export default function Gallery() {
               </div>
             ))}
           </Carousel>
+        </div>
+        <div className="sm:py-15 mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
+          <LeafletMap />
         </div>
       </div>
     </>

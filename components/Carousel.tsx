@@ -6,23 +6,19 @@ const CustomCarousel = ({ cabins }) => {
   return (
     <Carousel>
       {cabins.map((item, index) => (
-        <div key={index} style={{ display: "flex", justifyContent: "center" }}>
-          <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+        <div key={index}>
+          <div
             style={{
-              width: "600px",
-              height: "100%",
+              maxWidth: "600px",
+              height: "600px",
               borderRadius: "10px",
               overflow: "hidden",
-              objectFit: "fill"
+              objectFit: "contain",
+              display: "flex",
             }}
+            className="responsive"
           >
-            <Image
-              src={item}
-              width={500}
-              height={500}
-              objectFit="fill"
-              alt="Image"
-            />
+            <Image src={item} alt="Image" width={600} height={600} />
           </div>
         </div>
       ))}
