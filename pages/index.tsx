@@ -61,7 +61,7 @@ export default function Gallery() {
           </Carousel>
         </div>
         <div className="sm:py-15 mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-          <LeafletMap />
+          {/* <LeafletMap /> */}
         </div>
       </div>
     </>
