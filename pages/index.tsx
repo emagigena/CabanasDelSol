@@ -7,7 +7,7 @@ import "@mui/material/";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import itemData from "../data/itemData.json";
-import LeafletMap from "../components/LeafletMap";
+// import LeafletMap from "../components/LeafletMap";
 
 export default function Gallery() {
   let cabinRef = useRef<HTMLDivElement>();
