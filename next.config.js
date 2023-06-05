@@ -1,15 +1,6 @@
 module.exports = {
-    reactStrictMode: true,
-    images: {
-      domains: [],
-    },
-    webpack: (config, { isServer }) => {
-      if (!isServer) {
-        config.resolve.fallback = {
-          fs: false,
-          module: false,
-        };
-      }
-      return config;
-    },
-  }
+  reactStrictMode: true,
+  images: {
+    domains: ["lh3.googleusercontent.com"],
+  },
+};

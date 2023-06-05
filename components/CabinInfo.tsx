@@ -7,12 +7,16 @@ export default function CabinInfo({ cabanas }) {
         {cabanas && cabanas.name}{" "}
         {/* Asegurar que cabanas exista antes de acceder a sus propiedades */}
       </h1>
+        <div className="mt-10 mb-5 border-t border-gray-200 pt-10 font-bold">
+          Capacidad: {cabanas && cabanas.maxCapacity}{" "}
+        </div>
+        {/* Asegurar que cabanas exista antes de acceder a sus propiedades */}
       <h1 className="mt-3 text-4xl font-bold text-gray-500 sm:text-3xl sm:tracking-tight lg:text-3xl">
         {cabanas && `$${cabanas.price}`}{" "}
         {/* Asegurar que cabanas exista antes de acceder a sus propiedades */}
       </h1>
       <div className="mt-10 mb-5 border-t border-gray-200 pt-10 font-bold">
-        Description
+        Descripción
       </div>
       <p className="max-w-xl">
         {cabanas && cabanas.description}{" "}
