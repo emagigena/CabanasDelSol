@@ -10,7 +10,7 @@ const CustomCarousel = ({ cabins }) => {
           <div
             style={{
               maxWidth: "600px",
-              height: "600px",
+              maxHeight: "600px",
               borderRadius: "10px",
               overflow: "hidden",
               objectFit: "contain",

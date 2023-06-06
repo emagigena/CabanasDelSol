@@ -2,8 +2,9 @@ import React from "react";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import logo from "../public/logo.png";
+import logo2 from "../public/logo2.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   const message = encodeURIComponent(
@@ -12,10 +13,22 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-8">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="flex items-center justify-center mb-8">
-          <Image src={logo} alt="Logo" className="h-12 w-12 mr-2" />
-          <h3 className="text-2xl font-semibold">Complejo Cabañas Del Sol</h3>
-        </div>
+        <Link href="/">
+          <div className="flex items-center justify-center mb-8">
+            <div
+              className="flex mr-8"
+              style={{ borderRadius: "50%", overflow: "hidden" }}
+            >
+              <Image width={30} height={30} src={logo2} alt={""} />
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold">
+                Complejo Cabañas Del Sol
+              </h3>
+            </div>
+          </div>
+        </Link>
+
         <div className="flex justify-center mb-8 space-x-6">
           <a
             href="https://www.facebook.com/complejodelsol"
@@ -41,9 +54,7 @@ export default function Footer() {
         </div>
         <div className="text-center text-gray-500 mb-8">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-            mauris vitae velit lobortis posuere. Nulla varius fringilla sapien,
-            non aliquet risus consectetur ut.
+            Esta es la página web del Complejo Cabañas Del Sol, Bienvenidos!
           </p>
         </div>
         <div className="text-center">
@@ -57,7 +68,7 @@ export default function Footer() {
             </a>
           </p>
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Nuestro Complejo de Cabañas. Todos los
+            © {new Date().getFullYear()}. Developed by Emanuel Gigena. Todos los
             derechos reservados.
           </p>
         </div>

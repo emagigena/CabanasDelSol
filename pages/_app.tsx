@@ -17,7 +17,6 @@ export default function MyApp({ Component, pageProps }) {
         <title>Cabañas del Sol</title>
       </Head>
       <main className={`${montserrat.variable} font-sans`}>
-        <NavBar />
         <Component {...pageProps} />
         <Footer />
       </main>
