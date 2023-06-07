@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import cabanas from "../data/cabins.json";
 import ProductCard from "./ProductCard";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Button } from "semantic-ui-react";
 
 const ProductList = () => {
   const displayedCabanas = cabanas;
+  const [showMore, setShowMore] = useState(false);
+
+  const toggleShowMore = () => {
+    setShowMore(!showMore);
+  };
 
   return (
     <>
@@ -32,7 +38,7 @@ const ProductList = () => {
           selectedItem={1}
         >
           {displayedCabanas.map((cabana) => (
-            <div key={cabana.id} style={{padding:"10px"}}>
+            <div key={cabana.id} style={{ padding: "10px" }}>
               <ProductCard product={cabana} />
             </div>
           ))}
@@ -40,12 +46,28 @@ const ProductList = () => {
       </div>
       <div className="block sm:hidden">
         <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
-          {displayedCabanas.map((cabana) => (
-            <div style={{ padding: "10px" }} key={cabana.id}>
+          {displayedCabanas.slice(0, 3).map((cabana) => (
+            <div style={{ padding: "40px" }} key={cabana.id}>
               <ProductCard product={cabana} />
             </div>
           ))}
         </div>
+        {!showMore && (
+          <div className="flex justify-center mt-6">
+            <Button onClick={toggleShowMore} color="blue">
+              Ver más
+            </Button>
+          </div>
+        )}
+        {showMore && (
+          <div className="text-center">
+            {displayedCabanas.slice(3).map((cabana) => (
+              <div key={cabana.id} style={{ padding: "40px" }}>
+                <ProductCard product={cabana} />
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </>
   );

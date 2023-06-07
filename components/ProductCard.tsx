@@ -6,6 +6,7 @@ import cabinsData from "../data/cabins.json";
 import AccessibilityIcon from "@mui/icons-material/Accessibility";
 import AcUnitIcon from "@mui/icons-material/AcUnit";
 import GarageIcon from "@mui/icons-material/Garage";
+import { Button } from "@mui/material";
 
 function cn(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -64,13 +65,13 @@ export default function ProductCard({ product }) {
   }
 
   return (
-    <div>
+    <div className="border border-grey shadow-lg rounded-lg">
       <Link href={`/products/${product.id}`} className="group">
         <div className="relative aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
           {Array.isArray(product.image) && (
             <div
               className="responsive"
-              style={{ display: "flex", objectFit: "contain" }}
+              style={{ display: "flex", objectFit: "contain"}}
             >
               <Image
                 alt="product image"
@@ -108,21 +109,22 @@ export default function ProductCard({ product }) {
           )}
         </div>
 
-        <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900">
+        <div className="mt-1 pt-4 pl-4 text-center flex items-center font-medium text-gray-900">
           <h3>{product.name}</h3>
-          <p>$ {product.price}</p>
         </div>
-        <p className="mt-1 text-sm italic text-gray-500 max-h-16 overflow-hidden">
+        <div className="p-4 text-sm">
+        <h3 className="h3-4 text-sm italic text-gray-400 max-h-16 overflow-hidden">
           {product.description}
-        </p>
+        </h3>
+        </div>
       </Link>
       <Link href={`/products/${product.id}`} className="group">
-        <button
+        <Button
           type="submit"
-          className="ml-2 px-4 py-2 border border-transparent text-sm font-medium rounded-r-lg shadow-sm text-white bg-orange-500 hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+          style={{ marginBottom: "10px", marginTop: "30px", backgroundColor: "#F1B140" }}
         >
-          Quiero alojarme Aquí!
-        </button>
+          <span className="text-white text-sm ml-1">¡Quiero Reservar!</span>
+        </Button>
       </Link>
     </div>
   );

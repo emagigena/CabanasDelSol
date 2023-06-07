@@ -1,12 +1,11 @@
 import cabanas from "../../data/cabins.json";
-import FormRegister from "../../components/FormRegister";
 import CabinInfo from "../../components/CabinInfo";
 import CustomCarousel from "../../components/Carousel";
 import { Grid, Container, Divider } from "semantic-ui-react";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import Link from "next/link";
 import { Button } from "@mui/material";
 import NavBar from "../../components/NavBar";
+import ContactForm from "../../components/ContactForm";
 
 export default function Product({ cabanas }) {
   const message = encodeURIComponent(
@@ -14,25 +13,19 @@ export default function Product({ cabanas }) {
   );
   return (
     <>
-      <NavBar cabinRef={""} CarouselRef={""} MapRef={""} />
+      <NavBar cabinRef={""} CarouselRef={""} MapRef={""} ContactRef={""} />
       <div className="block md:hidden">
         <Container>
           <div className="mx-auto max-w-2xl px-4 sm:px-6 mt-10 lg:max-w-7xl lg:px-8">
             <CabinInfo cabanas={cabanas} />
             <Divider />
-            <a
-              href={`https://wa.me/3424770011?text=${message}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="whatsapp-link"
-            >
-              <div className="mt-10 mb-5 border-t border-gray-200 pt-10 font-bold">
+            <div className="mt-1 mb-5 border-t border-gray-200 pt-10 font-bold">
+              <p className="mb-3">
                 Consultanos a nuestro WhatsApp!{" "}
-                <Button color={"secondary"}>
-                  <WhatsAppIcon className="whatsapp-icon" />
-                </Button>
-              </div>
-            </a>
+                <WhatsAppIcon className="whatsapp-icon" />
+              </p>
+              <ContactForm />
+            </div>
             <CustomCarousel cabins={cabanas.image} />
             <Divider />
           </div>
@@ -49,16 +42,8 @@ export default function Product({ cabanas }) {
                 <CabinInfo cabanas={cabanas} />
                 <Divider />
                 Consultanos a nuestro WhatsApp!{" "}
-                <a
-                  href={`https://wa.me/3424770011?text=${message}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="whatsapp-link"
-                >
-                  <Button color={"secondary"}>
-                    <WhatsAppIcon className="whatsapp-icon" />
-                  </Button>
-                </a>
+                <WhatsAppIcon className="whatsapp-icon" />
+                <ContactForm />
               </Grid.Column>
             </Grid>
           </div>
