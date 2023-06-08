@@ -50,7 +50,13 @@ export default function NavBar({ cabinRef, CarouselRef, MapRef, ContactRef }) {
   return (
     <nav className="bg-yellow-600">
       <div className="flex items-center justify-between px-4 py-2">
-        <Link href="/" className="flex items-center space-x-2">
+        <Link
+          href="/"
+          className="ml-4 flex md:hidden align-items-center text-center items-center space-x-2"
+        >
+          <Image src="/logo2NavBar.png" alt="Logo" width={300} height={300} />
+        </Link>
+        <Link href="/" className="hidden md:block items-center space-x-2">
           <Image src="/logo2NavBar.png" alt="Logo" width={300} height={300} />
         </Link>
         <div className="hidden md:block space-x-4">
