@@ -1,19 +1,21 @@
 import React, { useRef, useState, useEffect } from "react";
-import Header from "../components/Header";
+import Header from "../components/header/Header";
 import "semantic-ui-css/semantic.min.css";
 import "@mui/material/";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Map from "../components/Map";
-import CarouselHome from "../components/CarouselHome";
-import ProductList from "../components/ProductList";
-import NavBar from "../components/NavBar";
-import ContactForm from "../components/ContactForm";
+import Map from "../components/map/Map";
+import CarouselHome from "../components/carousel/CarouselHome";
+import ProductList from "../components/product/ProductList";
+import NavBar from "../components/navBar/NavBar";
+import ContactForm from "../components/contactForm/ContactForm";
+import ReviewList from "../components/reviews/ReviewList";
 
 export default function Gallery() {
   const cabinRef = useRef<HTMLDivElement>();
   const CarouselRef = useRef<HTMLDivElement>();
   const MapRef = useRef<HTMLDivElement>();
   const ContactRef = useRef<HTMLDivElement>();
+  const ReviewsRef = useRef<HTMLDivElement>();
 
   const scrollHandler = (e) => {
     e.preventDefault();
@@ -30,6 +32,7 @@ export default function Gallery() {
         CarouselRef={CarouselRef}
         MapRef={MapRef}
         ContactRef={ContactRef}
+        ReviewsRef = {ReviewsRef}
       />
       <Header scrollHandler={scrollHandler} />
       <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -37,6 +40,8 @@ export default function Gallery() {
         <ProductList />
         <div ref={CarouselRef} />
         <CarouselHome />
+        <div ref={ReviewsRef} />
+        <ReviewList />
         <div ref={MapRef} />
         <Map />
         <div ref={ContactRef} />

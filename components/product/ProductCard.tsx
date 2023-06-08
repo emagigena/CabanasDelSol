@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import cabinsData from "../data/cabins.json";
+import cabinsData from "../../data/cabins.json";
 import AccessibilityIcon from "@mui/icons-material/Accessibility";
 import AcUnitIcon from "@mui/icons-material/AcUnit";
 import GarageIcon from "@mui/icons-material/Garage";

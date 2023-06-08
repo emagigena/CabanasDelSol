@@ -1,16 +1,16 @@
 import cabanas from "../../data/cabins.json";
-import CabinInfo from "../../components/CabinInfo";
-import CustomCarousel from "../../components/Carousel";
+import CabinInfo from "../../components/cabinInfo/CabinInfo";
+import CustomCarousel from "../../components/carousel/Carousel";
 import { Container, Divider } from "semantic-ui-react";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import { Button, Grid } from "@mui/material";
-import NavBar from "../../components/NavBar";
-import ContactForm from "../../components/ContactForm";
+import { Grid } from "@mui/material";
+import NavBar from "../../components/navBar/NavBar";
+import ContactForm from "../../components/contactForm/ContactForm";
 
 export default function Product({ cabanas }) {
   return (
     <>
-      <NavBar cabinRef={""} CarouselRef={""} MapRef={""} ContactRef={""} />
+      <NavBar cabinRef={""} CarouselRef={""} MapRef={""} ContactRef={""} ReviewsRef={""} />
 
       <div className="block md:hidden">
         <Container>
@@ -35,7 +35,7 @@ export default function Product({ cabanas }) {
           <Grid
             item
             className="mx-auto max-w-2xl px-4 sm:px-6 mt-10 lg:max-w-7xl lg:px-8"
-            style={{ marginTop: "2rem", width: "50%", objectFit: "contain" }}
+            style={{ marginTop: "2rem", width: "50%" }}
           >
             <div>
               <CustomCarousel cabins={cabanas.image} />

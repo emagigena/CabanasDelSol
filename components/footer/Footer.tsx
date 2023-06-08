@@ -2,16 +2,19 @@ import React from "react";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import logo2 from "../public/logo2.png";
+import logo2 from "../../public/logo2.png";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
   const message = encodeURIComponent(
-    "¡Hola! Me interesa obtener más información sobre esta cabaña."
+    "¡Hola! Me interesa obtener más información para poder hospedarme en una cabaña."
   );
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer
+      style={{ backgroundColor: "#F1B140" }}
+      className="bg-gray-900 text-white py-8"
+    >
       <div className="max-w-6xl mx-auto px-4">
         <Link href="/">
           <div className="flex items-center justify-center mb-8">
@@ -22,7 +25,7 @@ export default function Footer() {
               <Image width={30} height={30} src={logo2} alt={""} />
             </div>
             <div>
-              <h3 className="text-2xl font-semibold">
+              <h3 className="text-2xl font-semibold text-white">
                 Complejo Cabañas Del Sol
               </h3>
             </div>
@@ -38,7 +41,7 @@ export default function Footer() {
             <FacebookIcon className="text-3xl text-white hover:text-gray-500 transition duration-300" />
           </a>
           <a
-            href="https://www.instagram.com/complejodelsol_santafe/reels/"
+            href="https://www.instagram.com/complejodelsol_santafe"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -67,7 +70,7 @@ export default function Footer() {
               RP1, S3001 Santa Fe
             </a>
           </p>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-white-500">
             © {new Date().getFullYear()}. Developed by Emanuel Gigena. Todos los
             derechos reservados.
           </p>

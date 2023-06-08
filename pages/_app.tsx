@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/globals.css";
-import Footer from "../components/Footer";
+import Footer from "../components/footer/Footer";
 import Head from "next/head";
 import { Montserrat } from "next/font/google";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/navBar/NavBar";
 
 const montserrat = Montserrat({
   subsets: ["latin"],

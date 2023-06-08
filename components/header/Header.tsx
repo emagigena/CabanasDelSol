@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import img from '../public/hero.jpeg'
+import img from '../../public/hero.jpeg'
 
 export default function Header({ scrollHandler }) {
   return (

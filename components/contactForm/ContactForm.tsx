@@ -125,7 +125,7 @@ export default function ContactForm() {
         <Button
           variant="contained"
           onClick={handleSubmit}
-          style={{ marginBottom: "10px", backgroundColor: "#F1B140" }}
+          style={{ marginBottom: "30px", backgroundColor: "#F1B140" }}
         >
           Enviar a WhatsApp
         </Button>

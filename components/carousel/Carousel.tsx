@@ -21,7 +21,7 @@ const CustomCarousel = ({ cabins }) => {
             srcSet={`${item}?w=164&h=164&fit=crop&auto=format&dpr=2 1x`}
             alt={"images"}
             loading="lazy"
-            style={{ borderRadius: "10px" }}
+            style={{ borderRadius: "10px", objectFit:"cover" }}
           />
         </div>
       ))}

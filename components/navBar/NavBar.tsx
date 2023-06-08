@@ -5,39 +5,44 @@ import { Divider } from "semantic-ui-react";
 import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
-export default function NavBar({ cabinRef, CarouselRef, MapRef, ContactRef }) {
+export default function NavBar({
+  cabinRef,
+  CarouselRef,
+  MapRef,
+  ContactRef,
+  ReviewsRef,
+}) {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
 
+  const handleScrollIntoView = (ref) => {
+    ref.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+    closeMobileNav();
+  };
+  
+  // Uso de la función genérica en lugar de las funciones individuales
   const handleCabinClick = () => {
-    cabinRef.current.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-    closeMobileNav();
+    handleScrollIntoView(cabinRef);
   };
-
+  
   const handleCarouselClick = () => {
-    CarouselRef.current.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-    closeMobileNav();
+    handleScrollIntoView(CarouselRef);
   };
-
+  
   const handleContactClick = () => {
-    ContactRef.current.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
+    handleScrollIntoView(ContactRef);
   };
-
+  
   const handleMapClick = () => {
-    MapRef.current.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-    closeMobileNav();
+    handleScrollIntoView(MapRef);
   };
+  
+  const handleReviewClick = () => {
+    handleScrollIntoView(ReviewsRef);
+  };
+  
 
   const toggleMobileNav = () => {
     setIsMobileNavOpen(!isMobileNavOpen);
@@ -62,24 +67,43 @@ export default function NavBar({ cabinRef, CarouselRef, MapRef, ContactRef }) {
         <div className="hidden md:block space-x-4">
           {cabinRef ? (
             <>
-              <span className="text-white font-bold" onClick={handleCabinClick}>
-                Cabañas
-              </span>
-              <span
-                className="text-white font-bold"
-                onClick={handleCarouselClick}
-              >
-                Complejo
-              </span>
-              <span className="text-white font-bold" onClick={handleMapClick}>
-                Ubicación
-              </span>
-              <span
-                className="text-white font-bold"
-                onClick={handleContactClick}
-              >
-                Contacto
-              </span>
+              <button className="nav-button">
+                <span
+                  className="text-white font-bold"
+                  onClick={handleCabinClick}
+                >
+                  Cabañas
+                </span>
+              </button>
+              <button className="nav-button">
+                <span
+                  className="text-white font-bold"
+                  onClick={handleCarouselClick}
+                >
+                  Complejo
+                </span>
+              </button>
+              <button className="nav-button">
+                <span
+                  className="text-white font-bold"
+                  onClick={handleReviewClick}
+                >
+                  Comentarios
+                </span>
+              </button>
+              <button className="nav-button">
+                <span className="text-white font-bold" onClick={handleMapClick}>
+                  Ubicación
+                </span>
+              </button>
+              <button className="nav-button">
+                <span
+                  className="text-white font-bold"
+                  onClick={handleContactClick}
+                >
+                  Contacto
+                </span>
+              </button>
             </>
           ) : (
             ""

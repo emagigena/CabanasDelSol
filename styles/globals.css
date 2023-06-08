@@ -39,4 +39,16 @@
   .image-container:hover .overlay {
     opacity: 1;
   }
+  .nav-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-button:hover span {
+    color: #F1B140;
+  }
+  
   

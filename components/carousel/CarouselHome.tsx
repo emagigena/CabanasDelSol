@@ -1,5 +1,5 @@
 import { Carousel } from "react-responsive-carousel";
-import itemData from "../data/itemData.json";
+import itemData from "../../data/itemData.json";
 
 const CarouselHome = () => {
   return (

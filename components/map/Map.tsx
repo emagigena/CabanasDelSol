@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import maps from "../data/images/maps.png";
+import maps from "../../data/images/maps.png";
 
 const Map = () => {
   return (

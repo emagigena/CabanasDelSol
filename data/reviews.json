@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Macarena Argañaras",
+    "comment": "El predio es hermoso y está muy bien cuidado, la vista al río desde la pileta al atardecer es preciosa. Las piletas están transparentes, hay varios espacios de sombra y también reposeras y sillas para tomar sol. Las cabañas son super cómodas, en todas las habitaciones hay aire acondicionado y ventiladores y funcionan perfecto. También pudimos ver los partidos del mundial en la TV,la señal de directv funciona perfectamente. La cocina completamente equipada, no tuvimos que llevar nada de vajilla. Heladera grande y enfría rápido. Siempre que vamos lo disfrutamos un montón!",
+    "stars": 5,
+    "image": "https://react.semantic-ui.com/images/avatar/small/stevie.jpg"
+  },
+  {
+    "name": "Ulises Perez",
+    "comment": "Nos alojamo del 9 al 11 de diciembre. La pasamo muy muy bien hermoso lugar y super trankilo. Mil% recomendable. Nos veremo pronto.",
+    "stars": 4,
+    "image": "https://react.semantic-ui.com/images/avatar/small/matt.jpg"
+  },
+  {
+    "name": "Angela Ybarra",
+    "comment": "Pasamos muy lindos días.. Cabaña 8 bien cuidada baño con agua caliente bien cuidado. Dormitorios super cómodos limpios y con aires. Parque muy lindo mucha sombra mesas para matear ver el atardecer. Piletas limpias y bien cuidadas con reposeras .. recomendable para descansar",
+    "stars": 4,
+    "image": "https://react.semantic-ui.com/images/avatar/small/stevie.jpg"
+  },
+  {
+    "name": "Milagros Gomez Monzon",
+    "comment": "Me encanto. Ambiente familiar y tranquilo, pileta fresca y impecable. Todo de primera, hasta el desayuno!! Un amor los recepcionistas y todo, en cada detalle, que hicieron que mi estadía sea perfecta. Gracias Yoana de cabañas del sol",
+    "stars": 4,
+    "image": "https://react.semantic-ui.com/images/avatar/small/jenny.jpg"
+  }
+]
