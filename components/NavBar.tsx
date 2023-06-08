@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Button, Divider } from "semantic-ui-react";
-import ViewWeekIcon from "@mui/icons-material/ViewWeek";
+import { Divider } from "semantic-ui-react";
+import { IconButton } from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
 
 export default function NavBar({ cabinRef, CarouselRef, MapRef, ContactRef }) {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -50,8 +51,7 @@ export default function NavBar({ cabinRef, CarouselRef, MapRef, ContactRef }) {
     <nav className="bg-yellow-600">
       <div className="flex items-center justify-between px-4 py-2">
         <Link href="/" className="flex items-center space-x-2">
-          <Image src="/logo.png" alt="Logo" width={64} height={64} />
-          <span className="text-white font-bold">Cabañas del Sol</span>
+          <Image src="/logo2NavBar.png" alt="Logo" width={300} height={300} />
         </Link>
         <div className="hidden md:block space-x-4">
           {cabinRef ? (
@@ -80,9 +80,16 @@ export default function NavBar({ cabinRef, CarouselRef, MapRef, ContactRef }) {
           )}
         </div>
         <div className="block md:hidden slide-down">
-          <Button icon onClick={toggleMobileNav}>
-            <ViewWeekIcon />
-          </Button>
+          <IconButton
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            sx={{ color: "white" }}
+            onClick={toggleMobileNav}
+          >
+            <MenuIcon />
+          </IconButton>
         </div>
       </div>
       <div

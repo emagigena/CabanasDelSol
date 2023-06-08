@@ -1,19 +1,17 @@
 import cabanas from "../../data/cabins.json";
 import CabinInfo from "../../components/CabinInfo";
 import CustomCarousel from "../../components/Carousel";
-import { Grid, Container, Divider } from "semantic-ui-react";
+import { Container, Divider } from "semantic-ui-react";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import { Button } from "@mui/material";
+import { Button, Grid } from "@mui/material";
 import NavBar from "../../components/NavBar";
 import ContactForm from "../../components/ContactForm";
 
 export default function Product({ cabanas }) {
-  const message = encodeURIComponent(
-    "¡Hola! Me interesa obtener más información sobre esta cabaña."
-  );
   return (
     <>
       <NavBar cabinRef={""} CarouselRef={""} MapRef={""} ContactRef={""} />
+
       <div className="block md:hidden">
         <Container>
           <div className="mx-auto max-w-2xl px-4 sm:px-6 mt-10 lg:max-w-7xl lg:px-8">
@@ -24,6 +22,7 @@ export default function Product({ cabanas }) {
                 Consultanos a nuestro WhatsApp!{" "}
                 <WhatsAppIcon className="whatsapp-icon" />
               </p>
+              <Divider />
               <ContactForm />
             </div>
             <CustomCarousel cabins={cabanas.image} />
@@ -32,22 +31,33 @@ export default function Product({ cabanas }) {
         </Container>
       </div>
       <div className="hidden md:block">
-        <Container style={{ marginTop: "2rem" }}>
-          <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-            <Grid columns={2}>
-              <Grid.Column width={8}>
-                <CustomCarousel cabins={cabanas.image} />
-              </Grid.Column>
-              <Grid.Column width={8}>
-                <CabinInfo cabanas={cabanas} />
-                <Divider />
+        <Grid container>
+          <Grid
+            item
+            className="mx-auto max-w-2xl px-4 sm:px-6 mt-10 lg:max-w-7xl lg:px-8"
+            style={{ marginTop: "2rem", width: "50%", objectFit: "contain" }}
+          >
+            <div>
+              <CustomCarousel cabins={cabanas.image} />
+            </div>
+          </Grid>
+          <Grid
+            item
+            className="mx-auto max-w-2xl px-4 sm:px-6 mt-10 lg:max-w-7xl lg:px-8"
+            style={{ marginTop: "2rem", width: "50%" }}
+          >
+            <Divider />
+            <div>
+              <CabinInfo cabanas={cabanas} />
+              <p className="mb-3">
                 Consultanos a nuestro WhatsApp!{" "}
                 <WhatsAppIcon className="whatsapp-icon" />
-                <ContactForm />
-              </Grid.Column>
-            </Grid>
-          </div>
-        </Container>
+              </p>
+              <Divider />
+              <ContactForm />
+            </div>
+          </Grid>
+        </Grid>
       </div>
     </>
   );

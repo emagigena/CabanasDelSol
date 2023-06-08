@@ -65,13 +65,19 @@ export default function ProductCard({ product }) {
   }
 
   return (
-    <div className="border border-grey shadow-lg rounded-lg">
+    <div
+      style={{ borderRadius: "20px" }}
+      className="border border-grey shadow-lg rounded-lg"
+    >
       <Link href={`/products/${product.id}`} className="group">
         <div className="relative aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
           {Array.isArray(product.image) && (
             <div
               className="responsive"
-              style={{ display: "flex", objectFit: "contain"}}
+              style={{
+                display: "flex",
+                objectFit: "contain",
+              }}
             >
               <Image
                 alt="product image"
@@ -109,23 +115,24 @@ export default function ProductCard({ product }) {
           )}
         </div>
 
-        <div className="mt-1 pt-4 pl-4 text-center flex items-center font-medium text-gray-900">
+        <div className="mt-1 pt-4 pl-4 text-center font-medium text-gray-900">
           <h3>{product.name}</h3>
         </div>
         <div className="p-4 text-sm">
-        <h3 className="h3-4 text-sm italic text-gray-400 max-h-16 overflow-hidden">
-          {product.description}
-        </h3>
+          <h3 className="h3-4 text-sm italic text-gray-400 max-h-16 overflow-hidden">
+            {product.description}
+          </h3>
         </div>
       </Link>
-      <Link href={`/products/${product.id}`} className="group">
-        <Button
-          type="submit"
-          style={{ marginBottom: "10px", marginTop: "30px", backgroundColor: "#F1B140" }}
-        >
-          <span className="text-white text-sm ml-1">¡Quiero Reservar!</span>
-        </Button>
-      </Link>
+      <div className="text-center">
+        <div className="flex justify-center mt-6 mb-6">
+          <Link href={`/products/${product.id}`} className="group">
+            <Button style={{ backgroundColor: "#F1B140", color: "white" }}>
+              ¡Quiero Reservar!
+            </Button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }

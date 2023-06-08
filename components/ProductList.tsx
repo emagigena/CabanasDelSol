@@ -54,7 +54,10 @@ const ProductList = () => {
         </div>
         {!showMore && (
           <div className="flex justify-center mt-6">
-            <Button onClick={toggleShowMore} color="blue">
+            <Button
+              onClick={toggleShowMore}
+              style={{ backgroundColor: "#F1B140", color: "white" }}
+            >
               Ver más
             </Button>
           </div>

@@ -6,20 +6,23 @@ const CustomCarousel = ({ cabins }) => {
   return (
     <Carousel>
       {cabins.map((item, index) => (
-        <div key={index}>
-          <div
-            style={{
-              maxWidth: "600px",
-              maxHeight: "600px",
-              borderRadius: "10px",
-              overflow: "hidden",
-              objectFit: "contain",
-              display: "flex",
-            }}
-            className="responsive"
-          >
-            <Image src={item} alt="Image" width={600} height={600} />
-          </div>
+        <div
+          key={index}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "600px",
+            borderRadius: "10px",
+            overflow: "hidden",
+            display: "flex",
+          }}
+        >
+          <img
+            src={`${item}?w=164&h=164&fit=crop&auto=format`}
+            srcSet={`${item}?w=164&h=164&fit=crop&auto=format&dpr=2 1x`}
+            alt={"images"}
+            loading="lazy"
+            style={{ borderRadius: "10px" }}
+          />
         </div>
       ))}
     </Carousel>
