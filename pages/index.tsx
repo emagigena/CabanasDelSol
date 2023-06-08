@@ -32,15 +32,17 @@ export default function Gallery() {
         CarouselRef={CarouselRef}
         MapRef={MapRef}
         ContactRef={ContactRef}
-        ReviewsRef = {ReviewsRef}
+        ReviewsRef={ReviewsRef}
       />
       <Header scrollHandler={scrollHandler} />
-      <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div ref={cabinRef} />
-        <ProductList />
-        <div ref={CarouselRef} />
-        <CarouselHome />
-        <div ref={ReviewsRef} />
+      {/* <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8"> */}
+      <div ref={cabinRef} />
+      <ProductList />
+
+      <div ref={CarouselRef} />
+      <CarouselHome />
+      <div ref={ReviewsRef} />
+      <div className="px-4 sm:px-6 lg:max-w-8xl lg:px-8">
         <ReviewList />
         <div ref={MapRef} />
         <Map />

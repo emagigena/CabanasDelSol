@@ -53,7 +53,7 @@ export default function NavBar({
 
   return (
     <nav
-      className="bg-yellow-600 "
+      className="bg-yellow-600"
       style={{ position: "fixed", width: "100%", zIndex: 999 }}
     >
       <div className="flex items-center justify-between px-4 py-2">
@@ -74,7 +74,7 @@ export default function NavBar({
                   className="text-white font-bold"
                   onClick={handleCabinClick}
                 >
-                  Cabañas
+                  CABAÑAS
                 </span>
               </button>
               <button className="nav-button">
@@ -82,7 +82,7 @@ export default function NavBar({
                   className="text-white font-bold"
                   onClick={handleCarouselClick}
                 >
-                  Complejo
+                  COMPLEJO
                 </span>
               </button>
               <button className="nav-button">
@@ -90,12 +90,12 @@ export default function NavBar({
                   className="text-white font-bold"
                   onClick={handleReviewClick}
                 >
-                  Comentarios
+                  COMENTARIOS
                 </span>
               </button>
               <button className="nav-button">
                 <span className="text-white font-bold" onClick={handleMapClick}>
-                  Ubicación
+                  UBICACIÓN
                 </span>
               </button>
               <button className="nav-button">
@@ -103,7 +103,7 @@ export default function NavBar({
                   className="text-white font-bold"
                   onClick={handleContactClick}
                 >
-                  Contacto
+                  CONTACTO
                 </span>
               </button>
             </>
@@ -131,32 +131,33 @@ export default function NavBar({
       >
         {cabinRef ? (
           <div className="slide-down">
+            <Divider />
             <span
               className="block w-full text-white font-bold text-center"
               onClick={handleCabinClick}
             >
-              Cabañas
+              CABAÑAS
             </span>
             <Divider />
             <span
               className="block w-full text-white font-bold text-center"
               onClick={handleCarouselClick}
             >
-              Complejo
+              COMPLEJO
             </span>{" "}
             <Divider />
             <span
               className="block w-full text-white font-bold text-center"
               onClick={handleMapClick}
             >
-              Ubicación
+              UBICACIÓN
             </span>{" "}
             <Divider />
             <span
               className="block w-full text-white font-bold text-center"
               onClick={handleMapClick}
             >
-              Contacto
+              CONTACTO
             </span>
             <Divider />
           </div>

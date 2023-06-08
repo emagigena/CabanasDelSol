@@ -34,7 +34,7 @@ const ProductList = () => {
           emulateTouch={true}
           dynamicHeight={false}
           centerMode={true}
-          centerSlidePercentage={33.333}
+          centerSlidePercentage={30}
           selectedItem={1}
         >
           {displayedCabanas.map((cabana) => (
