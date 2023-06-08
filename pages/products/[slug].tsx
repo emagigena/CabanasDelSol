@@ -12,7 +12,7 @@ export default function Product({ cabanas }) {
     <>
       <NavBar cabinRef={""} CarouselRef={""} MapRef={""} ContactRef={""} ReviewsRef={""} />
 
-      <div className="block md:hidden">
+      <div className="block md:hidden pt-20">
         <Container>
           <div className="mx-auto max-w-2xl px-4 sm:px-6 mt-10 lg:max-w-7xl lg:px-8">
             <CabinInfo cabanas={cabanas} />
@@ -30,7 +30,7 @@ export default function Product({ cabanas }) {
           </div>
         </Container>
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block pt-20">
         <Grid container>
           <Grid
             item

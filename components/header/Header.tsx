@@ -4,9 +4,9 @@ import img from '../../public/hero.jpeg'
 
 export default function Header({ scrollHandler }) {
   return (
-    <header className="relative">
+    <header className="relative pt-10">
       <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
-      <div className="mx-auto">
+      <div className="mx-auto pt-9">
         <div className="relative shadow-xl sm:overflow-hidden">
           <div className="absolute inset-0">
             <Image

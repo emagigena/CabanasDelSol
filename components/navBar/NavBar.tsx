@@ -21,28 +21,27 @@ export default function NavBar({
     });
     closeMobileNav();
   };
-  
+
   // Uso de la función genérica en lugar de las funciones individuales
   const handleCabinClick = () => {
     handleScrollIntoView(cabinRef);
   };
-  
+
   const handleCarouselClick = () => {
     handleScrollIntoView(CarouselRef);
   };
-  
+
   const handleContactClick = () => {
     handleScrollIntoView(ContactRef);
   };
-  
+
   const handleMapClick = () => {
     handleScrollIntoView(MapRef);
   };
-  
+
   const handleReviewClick = () => {
     handleScrollIntoView(ReviewsRef);
   };
-  
 
   const toggleMobileNav = () => {
     setIsMobileNavOpen(!isMobileNavOpen);
@@ -53,7 +52,10 @@ export default function NavBar({
   };
 
   return (
-    <nav className="bg-yellow-600">
+    <nav
+      className="bg-yellow-600 "
+      style={{ position: "fixed", width: "100%", zIndex: 999 }}
+    >
       <div className="flex items-center justify-between px-4 py-2">
         <Link
           href="/"
