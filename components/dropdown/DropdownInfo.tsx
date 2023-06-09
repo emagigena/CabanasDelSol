@@ -3,9 +3,8 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { Divider } from "semantic-ui-react";
 
-export default function DropdownInfo() {
+export default function DropdownInfo({ maxCapacity }) {
   return (
     <div>
       <Accordion
@@ -27,7 +26,10 @@ export default function DropdownInfo() {
         <AccordionDetails>
           <p>
             <div>
-              <li>3 habitaciones en planta baja</li>
+              <li>
+                3 habitaciones en planta baja con capacidad para {maxCapacity}{" "}
+                personas
+              </li>
               <li>Cocina comedor </li>
               <li>Dos baños</li>
               <li> Quincho con asador</li>

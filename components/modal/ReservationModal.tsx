@@ -4,6 +4,7 @@ import CabinInfo from "../cabinInfo/CabinInfo";
 import CustomCarousel from "../carousel/Carousel";
 import ContactForm from "../contactForm/ContactForm";
 import { Grid } from "@mui/material";
+import Map from "../map/Map";
 // import "./ReservationModal.css"; // Importar el archivo CSS personalizado
 
 export default function ReservationModal({ cabin }) {
@@ -49,6 +50,10 @@ export default function ReservationModal({ cabin }) {
               style={{ marginTop: "2rem", width: "50%" }}
             >
               <CustomCarousel cabins={cabin.image} />
+              <div>
+                <p>Ubicación: </p>
+              </div>
+              <Map />
             </Grid>
           </Grid>
         </div>

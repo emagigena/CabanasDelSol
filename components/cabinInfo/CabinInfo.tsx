@@ -15,7 +15,7 @@ export default function CabinInfo({ cabanas }) {
         {/* Asegurar que cabanas exista antes de acceder a sus propiedades */}
       </p>
       <div>
-        <DropdownInfo />
+        <DropdownInfo maxCapacity={cabanas.maxCapacity} />
       </div>
     </>
   );

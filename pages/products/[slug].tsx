@@ -6,7 +6,6 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { Grid } from "@mui/material";
 import NavBar from "../../components/navBar/NavBar";
 import ContactForm from "../../components/contactForm/ContactForm";
-import DropdownInfo from "../../components/dropdown/DropdownInfo";
 import Map from "../../components/map/Map";
 
 export default function Product({ cabanas }) {
