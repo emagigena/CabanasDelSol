@@ -66,44 +66,44 @@ export default function NavBar({
         <Link href="/" className="hidden md:block items-center space-x-2">
           <Image src="/logo2NavBar.png" alt="Logo" width={300} height={300} />
         </Link>
-        <div className="hidden md:block space-x-4">
+        <div className="hidden md:block space-x-4 mr-4">
           {cabinRef ? (
             <>
               <button className="nav-button">
                 <span
-                  className="text-white font-bold"
+                  className="text-white font-semi-bold"
                   onClick={handleCabinClick}
                 >
-                  CABAÑAS
+                  Cabañas
                 </span>
               </button>
               <button className="nav-button">
                 <span
-                  className="text-white font-bold"
+                  className="text-white font-semi-bold"
                   onClick={handleCarouselClick}
                 >
-                  COMPLEJO
+                  Complejo
                 </span>
               </button>
               <button className="nav-button">
                 <span
-                  className="text-white font-bold"
+                  className="text-white font-semi-bold"
                   onClick={handleReviewClick}
                 >
-                  COMENTARIOS
+                  Comentarios
                 </span>
               </button>
               <button className="nav-button">
-                <span className="text-white font-bold" onClick={handleMapClick}>
-                  UBICACIÓN
+                <span className="text-white font-semi-bold" onClick={handleMapClick}>
+                  Ubicación
                 </span>
               </button>
               <button className="nav-button">
                 <span
-                  className="text-white font-bold"
+                  className="text-white font-semi-bold"
                   onClick={handleContactClick}
                 >
-                  CONTACTO
+                  Contacto
                 </span>
               </button>
             </>
@@ -133,31 +133,31 @@ export default function NavBar({
           <div className="slide-down">
             <Divider />
             <span
-              className="block w-full text-white font-bold text-center"
+              className="block w-full text-white font-semi-bold text-center"
               onClick={handleCabinClick}
             >
-              CABAÑAS
+              Cabañas
             </span>
             <Divider />
             <span
-              className="block w-full text-white font-bold text-center"
+              className="block w-full text-white font-semi-bold text-center"
               onClick={handleCarouselClick}
             >
-              COMPLEJO
+              Complejo
             </span>{" "}
             <Divider />
             <span
-              className="block w-full text-white font-bold text-center"
+              className="block w-full text-white font-semi-bold text-center"
               onClick={handleMapClick}
             >
-              UBICACIÓN
+              Ubicación
             </span>{" "}
             <Divider />
             <span
-              className="block w-full text-white font-bold text-center"
+              className="block w-full text-white font-semi-bold text-center"
               onClick={handleMapClick}
             >
-              CONTACTO
+              Contacto
             </span>
             <Divider />
           </div>
