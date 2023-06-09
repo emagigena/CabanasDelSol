@@ -45,6 +45,13 @@ export default function Gallery() {
       <div className="px-4 sm:px-6 lg:max-w-8xl lg:px-8">
         <ReviewList />
         <div ref={MapRef} />
+        <div className="sm:py-15 mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <p className="text-4xl font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl">
+              Nuestra Ubicación
+            </p>
+          </div>
+        </div>
         <Map />
         <div ref={ContactRef} />
         <div className="sm:py-15 mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">

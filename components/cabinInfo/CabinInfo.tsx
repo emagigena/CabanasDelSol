@@ -1,4 +1,5 @@
 import React from "react";
+import DropdownInfo from "../dropdown/DropdownInfo";
 
 export default function CabinInfo({ cabanas }) {
   return (
@@ -13,6 +14,9 @@ export default function CabinInfo({ cabanas }) {
         {cabanas && cabanas.description}{" "}
         {/* Asegurar que cabanas exista antes de acceder a sus propiedades */}
       </p>
+      <div>
+        <DropdownInfo />
+      </div>
     </>
   );
 }

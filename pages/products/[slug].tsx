@@ -6,17 +6,24 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { Grid } from "@mui/material";
 import NavBar from "../../components/navBar/NavBar";
 import ContactForm from "../../components/contactForm/ContactForm";
+import DropdownInfo from "../../components/dropdown/DropdownInfo";
+import Map from "../../components/map/Map";
 
 export default function Product({ cabanas }) {
   return (
     <>
-      <NavBar cabinRef={""} CarouselRef={""} MapRef={""} ContactRef={""} ReviewsRef={""} />
+      <NavBar
+        cabinRef={""}
+        CarouselRef={""}
+        MapRef={""}
+        ContactRef={""}
+        ReviewsRef={""}
+      />
 
       <div className="block md:hidden pt-20">
         <Container>
           <div className="mx-auto max-w-2xl px-4 sm:px-6 mt-10 lg:max-w-7xl lg:px-8">
             <CabinInfo cabanas={cabanas} />
-            <Divider />
             <div className="mt-1 mb-5 border-t border-gray-200 pt-10 font-bold">
               <p className="mb-3">
                 Consultanos a nuestro WhatsApp!{" "}
@@ -39,6 +46,7 @@ export default function Product({ cabanas }) {
           >
             <div>
               <CustomCarousel cabins={cabanas.image} />
+              <Map/>
             </div>
           </Grid>
           <Grid
@@ -46,9 +54,9 @@ export default function Product({ cabanas }) {
             className="mx-auto max-w-2xl px-4 sm:px-6 mt-10 lg:max-w-7xl lg:px-8"
             style={{ marginTop: "2rem", width: "50%" }}
           >
-            <Divider />
             <div>
               <CabinInfo cabanas={cabanas} />
+              <DropdownInfo />
               <p className="mb-3">
                 Consultanos a nuestro WhatsApp!{" "}
                 <WhatsAppIcon className="whatsapp-icon" />

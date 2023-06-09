@@ -73,10 +73,10 @@
   }
   
   .reservation-modal {
-    width: 60%; /* Ajusta el ancho del modal según tus necesidades */
-    max-width: 500px; /* Establece un ancho máximo si lo deseas */
+    width: 100%; /* Ajusta el ancho del modal según tus necesidades */
+    max-width: 1200px; /* Establece un ancho máximo si lo deseas */
     margin: 0 auto; /* Centra el modal horizontalmente en la pantalla */
-    margin-bottom: 20px;
+    padding-bottom: 20px;
   }
   
   @media (max-width: 768px) {
