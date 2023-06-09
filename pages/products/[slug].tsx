@@ -56,7 +56,6 @@ export default function Product({ cabanas }) {
           >
             <div>
               <CabinInfo cabanas={cabanas} />
-              <DropdownInfo />
               <p className="mb-3">
                 Consultanos a nuestro WhatsApp!{" "}
                 <WhatsAppIcon className="whatsapp-icon" />
