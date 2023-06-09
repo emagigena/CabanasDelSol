@@ -10,7 +10,7 @@ const CustomCarousel = ({ cabins }) => {
           key={index}
           style={{
             maxWidth: "100%",
-            maxHeight: "600px",
+            maxHeight: "500px",
             borderRadius: "10px",
             overflow: "hidden",
             display: "flex",

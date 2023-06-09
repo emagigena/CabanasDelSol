@@ -6,6 +6,7 @@ import { Montserrat } from "next/font/google";
 import NavBar from "../components/navBar/NavBar";
 import CookieBanner from "../components/cookieBanner/CookieBanner";
 import DynamicCookieBanner from "../components/cookieBanner/CookieBanner";
+import WhatsAppButton from "../components/whatsappButton/WhatsAppButton";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -15,7 +16,7 @@ const montserrat = Montserrat({
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
-      <DynamicCookieBanner />
+      {/* <DynamicCookieBanner /> */}
 
       <Head>
         <title>Cabañas del Sol</title>

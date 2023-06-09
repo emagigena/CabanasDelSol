@@ -7,6 +7,7 @@ import AccessibilityIcon from "@mui/icons-material/Accessibility";
 import AcUnitIcon from "@mui/icons-material/AcUnit";
 import GarageIcon from "@mui/icons-material/Garage";
 import { Button } from "@mui/material";
+import ReservationModal from "../modal/ReservationModal";
 
 function cn(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -126,11 +127,7 @@ export default function ProductCard({ product }) {
       </Link>
       <div className="text-center">
         <div className="flex justify-center mt-6 mb-6">
-          <Link href={`/products/${product.id}`} className="group">
-            <Button style={{ backgroundColor: "#F1B140", color: "white" }}>
-              ¡Quiero Reservar!
-            </Button>
-          </Link>
+          <ReservationModal cabin={product} />
         </div>
       </div>
     </div>
