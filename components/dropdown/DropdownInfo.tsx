@@ -32,7 +32,7 @@ export default function DropdownInfo({ maxCapacity }) {
               </li>
               <li>Cocina comedor </li>
               <li>Dos baños</li>
-              <li> Quincho con asador</li>
+              <li>Quincho con asador</li>
             </div>
           </p>
         </AccordionDetails>
