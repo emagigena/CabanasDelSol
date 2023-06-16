@@ -28,7 +28,7 @@ export default function Product({ cabanas }) {
                 Consultanos a nuestro WhatsApp!{" "}
                 <WhatsAppIcon className="whatsapp-icon" />
               </p>
-              <ContactForm />
+              <ContactForm cabinID={cabanas.id} />
             </div>
             <CustomCarousel cabins={cabanas.image} />
             <Divider />
@@ -58,7 +58,7 @@ export default function Product({ cabanas }) {
                 Consultanos a nuestro WhatsApp!{" "}
                 <WhatsAppIcon className="whatsapp-icon" />
               </p>
-              <ContactForm />
+              <ContactForm cabinID={cabanas.id}/>
             </div>
           </Grid>
         </Grid>

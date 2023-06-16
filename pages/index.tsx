@@ -60,7 +60,7 @@ export default function Gallery() {
               Contactá con Nosotros
             </p>
           </div>
-        <ContactForm />
+        <ContactForm cabinID={""}/>
         </div>
       </div>
     </>
