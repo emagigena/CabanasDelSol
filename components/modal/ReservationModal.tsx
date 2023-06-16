@@ -42,7 +42,7 @@ export default function ReservationModal({ cabin }) {
               style={{ marginTop: "2rem", width: "50%" }}
             >
               <CabinInfo cabanas={cabin} />
-              <ContactForm />
+              <ContactForm cabinID={cabin.id} />
             </Grid>
             <Grid
               item
@@ -60,7 +60,7 @@ export default function ReservationModal({ cabin }) {
         <div className="block md:hidden ">
           <CabinInfo cabanas={cabin} />
           <CustomCarousel cabins={cabin.image} />
-          <ContactForm />
+          <ContactForm cabinID={cabin.id}/>
         </div>
       </Modal.Content>
     </Modal>
