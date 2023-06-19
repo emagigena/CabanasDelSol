@@ -3,8 +3,9 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import VideoCarousel from "../videoCarousel/VideoCarousel";
 
-export default function DropdownInfo({ maxCapacity }) {
+export default function DropdownInfo({ cabanas }) {
   return (
     <div>
       <Accordion
@@ -26,13 +27,9 @@ export default function DropdownInfo({ maxCapacity }) {
         <AccordionDetails>
           <p>
             <div>
-              <li>
-                3 habitaciones en planta baja con capacidad para {maxCapacity}{" "}
-                personas
-              </li>
-              <li>Cocina comedor </li>
-              <li>Dos baños</li>
-              <li>Quincho con asador</li>
+              {cabanas?.distribucion?.map((data, index) => (
+                <li key={index}>{data}</li>
+              ))}
             </div>
           </p>
         </AccordionDetails>
@@ -57,19 +54,12 @@ export default function DropdownInfo({ maxCapacity }) {
         <AccordionDetails>
           <p>
             <div>
-              <li>Heladera</li>
-              <li>Ropa de cama</li>
-              <li>Cocina con vajilla</li>
-              <li>Microondas, Pava eléctrica</li>
-              <li>Tv con Directv</li>
-              <li>Wifi en todo el complejo</li>
-              <li>
-                <span className="font-bold">
-                  No contamos con toallas y toallones
-                </span>
-              </li>
+              {cabanas?.equipamiento?.map((data, index) => (
+                <li key={index}>{data}</li>
+              ))}
             </div>
           </p>
+          <VideoCarousel cabins={cabanas}/>
         </AccordionDetails>
       </Accordion>
 

@@ -3,33 +3,30 @@
     "id": 1,
     "name": "Cabaña 1",
     "maxCapacity": 7,
-    "description": "Disfruta de un alojamiento espacioso con 2 dormitorios y capacidad para hasta 7 personas. Esta cabaña está equipada con todos los electrodomésticos que necesitas, como heladera, televisor, cocina, microondas, aire acondicionado y calefacción. Además, cuenta con un cómodo baño y antebaño, y te proporcionamos la ropa de cama para una estancia confortable.",
+    "description": "Disfruta de un alojamiento espacioso con 2 dormitorios y capacidad hasta 7 personas. Esta cabaña está equipada con todos los electrodomésticos que necesitas, como heladera, televisor, cocina, microondas, aire acondicionado y calefacción. Además, cuenta con un cómodo baño y antebaño, y te proporcionamos la ropa de cama para una estancia confortable.",
     "image": [
-      "https://lh3.googleusercontent.com/pw/AJFCJaUSyDaJrBZ7rtnUW1MHNWXK4GXpo8qVNXuyMhseO4eGAlpLKEQKqtK3e6IeGrYs7Q72JQKX5qYAXhJaxA3nZ7QAxuJUhnmKEIloeFkyE7RI2IYv3mInhdDNvm_7YJqWsveZIrAbJO0SwFHeT3yPJI-2=w689-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaUAhEEL-Ovu9QaHFl1R-STOCIMhmwDOMbhC-VIi8GT6kYzQA-WPGvk4m1VX_bpm3sAXZn2Z_fnx9VgJ6LACBeem7uDGKHAbsNwKQ-dQk1TmL99jvf9QQIyfpO7QCHgwhNA3vGcRe2-UTYuoEQj_hReYeg=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaXzVW7bjXeXfK2FiDK-GG47u1Wr6zTxx5AshITkUfJOuVyM_3f6RBXYrUNF5VbnqPpMQAZGqjKnsSTO3V85Kf-p5VIM4M__9Nu1oNkenio8pNsy7v_x19YFkhrJKIJKHC7_N3DArx2MXKC9MYMYbYEt=w1551-h1034-s-no?authuser=0"
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142991/caba%C3%B1as/caba%C3%B1a%201/interior_a9djxn.jpg",
+      "https://res.cloudinary.com/dhrfu31jp/video/upload/v1687142744/caba%C3%B1as/caba%C3%B1a%201/1_video_kbjp2r.mp4"
     ],
-    "availability": [
-      {
-        "name": "Cliente 1",
-        "lastName": "Apellido 1",
-        "address": "Dirección 1",
-        "phoneNumber": "123456789",
-        "email": "cliente1@example.com",
-        "checkInDate": "2023-06-10",
-        "checkOutDate": "2023-06-15"
-      },
-      {
-        "name": "Cliente 2",
-        "lastName": "Apellido 2",
-        "address": "Dirección 2",
-        "phoneNumber": "987654321",
-        "email": "cliente2@example.com",
-        "checkInDate": "2023-07-01",
-        "checkOutDate": "2023-07-05"
-      }
+    "availability": [],
+    "price": "Consultar",
+    "distribucion": [
+      "2 Dormitorios estándar",
+      "Capacidad para 7 personas",
+      "Baño y antebaño completo",
+      "Quincho con asador"
     ],
-    "price": "Consultar"
+    "equipamiento": [
+      "Heladera",
+      "cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera",
+      "Quincho con Asador"
+    ]
   },
   {
     "id": 2,
@@ -37,31 +34,28 @@
     "maxCapacity": 4,
     "description": "Perfecta para una escapada romántica o una pequeña familia, esta cabaña cuenta con 1 dormitorio y tiene capacidad para hasta 4 personas. Al igual que nuestras otras cabañas, está equipada con todos los electrodomésticos necesarios para tu comodidad.",
     "image": [
-      "https://lh3.googleusercontent.com/pw/AJFCJaUKI-vcCgFHQRiqVOJfpmgEhDM2zg8hK3Bw4hrk3iFwKLCV9kCCo-rk6mIOLcALpLzDugK3hHn8-fvbKrKEyo9Kd7Cl6agfK9_7OM8L_jNLyQDjLYVOyP0vt2obW3mhTt5QEcxX2nvBqL-8hBenwjpr=w689-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaUAhEEL-Ovu9QaHFl1R-STOCIMhmwDOMbhC-VIi8GT6kYzQA-WPGvk4m1VX_bpm3sAXZn2Z_fnx9VgJ6LACBeem7uDGKHAbsNwKQ-dQk1TmL99jvf9QQIyfpO7QCHgwhNA3vGcRe2-UTYuoEQj_hReYeg=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaXzVW7bjXeXfK2FiDK-GG47u1Wr6zTxx5AshITkUfJOuVyM_3f6RBXYrUNF5VbnqPpMQAZGqjKnsSTO3V85Kf-p5VIM4M__9Nu1oNkenio8pNsy7v_x19YFkhrJKIJKHC7_N3DArx2MXKC9MYMYbYEt=w1551-h1034-s-no?authuser=0"
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142854/caba%C3%B1as/caba%C3%B1a%202/2_kfyyjs.png",
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142858/caba%C3%B1as/caba%C3%B1a%202/interior_ppxrdf.jpg"
     ],
-    "availability": [
-      {
-        "name": "Cliente 1",
-        "lastName": "Apellido 1",
-        "address": "Dirección 1",
-        "phoneNumber": "123456789",
-        "email": "cliente1@example.com",
-        "checkInDate": "2023-06-10",
-        "checkOutDate": "2023-06-15"
-      },
-      {
-        "name": "Cliente 2",
-        "lastName": "Apellido 2",
-        "address": "Dirección 2",
-        "phoneNumber": "987654321",
-        "email": "cliente2@example.com",
-        "checkInDate": "2023-07-01",
-        "checkOutDate": "2023-07-05"
-      }
+    "availability": [],
+    "price": "Consultar",
+    "distribucion": [
+      "1 Dormitorios estándar",
+      "Capacidad para 4 personas",
+      "Baño completo",
+      "Quincho con asador"
     ],
-    "price": "Consultar"
+    "equipamiento": [
+      "Heladera",
+      "cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera",
+      "Quincho con Asador"
+    ]
   },
 
   {
@@ -70,11 +64,26 @@
     "maxCapacity": 6,
     "description": "Con 2 dormitorios y capacidad estándar para 6 personas, esta cabaña es ideal para familias o grupos de amigos. Al igual que nuestras otras cabañas, encontrarás todos los electrodomésticos necesarios para hacer de tu estancia una experiencia memorable.",
     "image": [
-      "https://lh3.googleusercontent.com/pw/AJFCJaUKI-vcCgFHQRiqVOJfpmgEhDM2zg8hK3Bw4hrk3iFwKLCV9kCCo-rk6mIOLcALpLzDugK3hHn8-fvbKrKEyo9Kd7Cl6agfK9_7OM8L_jNLyQDjLYVOyP0vt2obW3mhTt5QEcxX2nvBqL-8hBenwjpr=w689-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaUAhEEL-Ovu9QaHFl1R-STOCIMhmwDOMbhC-VIi8GT6kYzQA-WPGvk4m1VX_bpm3sAXZn2Z_fnx9VgJ6LACBeem7uDGKHAbsNwKQ-dQk1TmL99jvf9QQIyfpO7QCHgwhNA3vGcRe2-UTYuoEQj_hReYeg=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaXzVW7bjXeXfK2FiDK-GG47u1Wr6zTxx5AshITkUfJOuVyM_3f6RBXYrUNF5VbnqPpMQAZGqjKnsSTO3V85Kf-p5VIM4M__9Nu1oNkenio8pNsy7v_x19YFkhrJKIJKHC7_N3DArx2MXKC9MYMYbYEt=w1551-h1034-s-no?authuser=0"
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142866/caba%C3%B1as/caba%C3%B1a%203/3_az02s0.png"
     ],
-    "price": "Consultar"
+    "price": "Consultar",
+    "distribucion": [
+      "2 Dormitorios estándar",
+      "Capacidad para 6 personas",
+      "Baño completo",
+      "Quincho con asador"
+    ],
+    "equipamiento": [
+      "Heladera",
+      "cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera",
+      "Quincho con Asador"
+    ]
   },
   {
     "id": 4,
@@ -82,13 +91,28 @@
     "maxCapacity": 6,
     "description": "Similar a la cabaña 3, esta opción también cuenta con 2 dormitorios y capacidad para hasta 6 personas. Disfruta de las comodidades de un hogar con todos los electrodomésticos necesarios para tu confort.",
     "image": [
-      "https://lh3.googleusercontent.com/pw/AJFCJaUuFJZZV4nNWLhf9e_gWvm8qziEAJNh1gmHKjpyuwA8T3g_6OQrYSLzMGNmT_ixlFvMts6JO3VgUGG8SEzqOewXbpmt2f0BqaUhZ2zMLzle21R-k5shFjgBxJEm6qPNLED9KBVLKjHaX1jfET0hrYHL5w=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaUAhEEL-Ovu9QaHFl1R-STOCIMhmwDOMbhC-VIi8GT6kYzQA-WPGvk4m1VX_bpm3sAXZn2Z_fnx9VgJ6LACBeem7uDGKHAbsNwKQ-dQk1TmL99jvf9QQIyfpO7QCHgwhNA3vGcRe2-UTYuoEQj_hReYeg=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaXzVW7bjXeXfK2FiDK-GG47u1Wr6zTxx5AshITkUfJOuVyM_3f6RBXYrUNF5VbnqPpMQAZGqjKnsSTO3V85Kf-p5VIM4M__9Nu1oNkenio8pNsy7v_x19YFkhrJKIJKHC7_N3DArx2MXKC9MYMYbYEt=w1551-h1034-s-no?authuser=0"
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142875/caba%C3%B1as/caba%C3%B1a%204/4_zmfhmo.png",
+      "https://res.cloudinary.com/dhrfu31jp/video/upload/v1687131039/caba%C3%B1as/caba%C3%B1a%204/video_caba%C3%B1a_4_rcurw2.mp4"
     ],
-    "video": "https://photos.google.com/share/AF1QipNH5ChiYzI_Xcynnitqmf3vkav2C9EiIKnWAAmDtpHk4zE-FuCzi4cA5p48UdFY4g/photo/AF1QipOw4Hklh0lKtfiZ1swP9UbQjsjRiQJXuTqfgUaD?key=QUhMMVNSNFJIUzVTbi1mcnhyRS1fWDR6REVDZ0NR",
     "availability": [],
-    "price": "Consultar"
+    "price": "Consultar",
+    "distribucion": [
+      "2 Dormitorios estándar",
+      "Capacidad para 6 personas",
+      "Baño completo",
+      "Quincho con asador"
+    ],
+    "equipamiento": [
+      "Heladera",
+      "cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera",
+      "Quincho con Asador"
+    ]
   },
   {
     "id": 5,
@@ -96,12 +120,27 @@
     "maxCapacity": 5,
     "description": "Perfecta para grupos más pequeños, esta cabaña ofrece 2 dormitorios estándar y capacidad para hasta 5 personas. Encontrarás todos los electrodomésticos necesarios para una estancia relajante y placentera.",
     "image": [
-      "https://lh3.googleusercontent.com/pw/AJFCJaXo6NRZlhOBQzyZh2dWCpM8QiSKGX33mRY3D-9oHuSBohTVpCAPj-yaA4gdWAhWgXVdcK1ijqpIV1a5fG75lrejWMqle9NUnpjm-5mn8AI5vrl5YR_V_hRg5RmH6xvlvgHoiGyhxpCy4yOrUfN2JlSc=w1551-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaUAhEEL-Ovu9QaHFl1R-STOCIMhmwDOMbhC-VIi8GT6kYzQA-WPGvk4m1VX_bpm3sAXZn2Z_fnx9VgJ6LACBeem7uDGKHAbsNwKQ-dQk1TmL99jvf9QQIyfpO7QCHgwhNA3vGcRe2-UTYuoEQj_hReYeg=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaXzVW7bjXeXfK2FiDK-GG47u1Wr6zTxx5AshITkUfJOuVyM_3f6RBXYrUNF5VbnqPpMQAZGqjKnsSTO3V85Kf-p5VIM4M__9Nu1oNkenio8pNsy7v_x19YFkhrJKIJKHC7_N3DArx2MXKC9MYMYbYEt=w1551-h1034-s-no?authuser=0"
+      "https://lh3.googleusercontent.com/pw/AJFCJaXo6NRZlhOBQzyZh2dWCpM8QiSKGX33mRY3D-9oHuSBohTVpCAPj-yaA4gdWAhWgXVdcK1ijqpIV1a5fG75lrejWMqle9NUnpjm-5mn8AI5vrl5YR_V_hRg5RmH6xvlvgHoiGyhxpCy4yOrUfN2JlSc=w1551-h1034-s-no?authuser=0"
     ],
     "availability": [],
-    "price": "Consultar"
+    "price": "Consultar",
+    "distribucion": [
+      "2 Dormitorios estándar",
+      "Capacidad para 5 personas",
+      "Baño completo",
+      "Quincho con asador"
+    ],
+    "equipamiento": [
+      "Heladera",
+      "cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera",
+      "Quincho con Asador"
+    ]
   },
   {
     "id": 6,
@@ -109,12 +148,27 @@
     "maxCapacity": 6,
     "description": "Para aquellos que necesitan aún más espacio, nuestra cabaña 6 ofrece 3 dormitorios y capacidad para hasta 6 personas. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
     "image": [
-      "https://lh3.googleusercontent.com/pw/AJFCJaUKI-vcCgFHQRiqVOJfpmgEhDM2zg8hK3Bw4hrk3iFwKLCV9kCCo-rk6mIOLcALpLzDugK3hHn8-fvbKrKEyo9Kd7Cl6agfK9_7OM8L_jNLyQDjLYVOyP0vt2obW3mhTt5QEcxX2nvBqL-8hBenwjpr=w689-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaUAhEEL-Ovu9QaHFl1R-STOCIMhmwDOMbhC-VIi8GT6kYzQA-WPGvk4m1VX_bpm3sAXZn2Z_fnx9VgJ6LACBeem7uDGKHAbsNwKQ-dQk1TmL99jvf9QQIyfpO7QCHgwhNA3vGcRe2-UTYuoEQj_hReYeg=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaXzVW7bjXeXfK2FiDK-GG47u1Wr6zTxx5AshITkUfJOuVyM_3f6RBXYrUNF5VbnqPpMQAZGqjKnsSTO3V85Kf-p5VIM4M__9Nu1oNkenio8pNsy7v_x19YFkhrJKIJKHC7_N3DArx2MXKC9MYMYbYEt=w1551-h1034-s-no?authuser=0"
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142893/caba%C3%B1as/caba%C3%B1a%206/6_ye38hr.jpg"
     ],
     "availability": [],
-    "price": "Consultar"
+    "price": "Consultar",
+    "distribucion": [
+      "2 Dormitorios estándar",
+      "Capacidad para 8 personas",
+      "Baño completo",
+      "Quincho con asador"
+    ],
+    "equipamiento": [
+      "Heladera",
+      "cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera",
+      "Quincho con Asador"
+    ]
   },
   {
     "id": 7,
@@ -122,25 +176,57 @@
     "maxCapacity": 8,
     "description": "Si buscas un alojamiento amplio, la cabaña 7 es la elección perfecta. Con 2 dormitorios superiores y capacidad para hasta 8 personas, esta cabaña te brinda un espacio cómodo y equipado con todos los electrodomésticos y comodidades necesarios.",
     "image": [
-      "https://lh3.googleusercontent.com/pw/AJFCJaUB8GGZsiQ6DrMDqaIRYLwpcebqm46YFfWuKFyBUbhDlijQ4EWCSRtj-SlrPjyMsLU5IEBQ-SGDbniwxB-3jm9iz1JnFModyFq8GEL1uMCfCunM__oDvVlITAiOukHFxuhjvUG1bJ4ltnGQeJ4viDdP=w689-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaUAhEEL-Ovu9QaHFl1R-STOCIMhmwDOMbhC-VIi8GT6kYzQA-WPGvk4m1VX_bpm3sAXZn2Z_fnx9VgJ6LACBeem7uDGKHAbsNwKQ-dQk1TmL99jvf9QQIyfpO7QCHgwhNA3vGcRe2-UTYuoEQj_hReYeg=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaXzVW7bjXeXfK2FiDK-GG47u1Wr6zTxx5AshITkUfJOuVyM_3f6RBXYrUNF5VbnqPpMQAZGqjKnsSTO3V85Kf-p5VIM4M__9Nu1oNkenio8pNsy7v_x19YFkhrJKIJKHC7_N3DArx2MXKC9MYMYbYEt=w1551-h1034-s-no?authuser=0"
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142900/caba%C3%B1as/caba%C3%B1a%207/7_pbvbw2.jpg",
+      "https://res.cloudinary.com/dhrfu31jp/video/upload/v1687142779/caba%C3%B1as/caba%C3%B1a%207/7_video_sgthjd.mp4"
     ],
     "availability": [],
-    "price": "Consultar"
+    "price": "Consultar",
+    "distribucion": [
+      "2 Dormitorios superiores",
+      "Capacidad para 8 personas",
+      "Baño completo",
+      "Quincho con asador"
+    ],
+    "equipamiento": [
+      "Heladera",
+      "cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera",
+      "Quincho con Asador"
+    ]
   },
   {
     "id": 8,
     "name": "Cabaña 8",
-    "maxCapacity": 6,
-    "description": "Para aquellos que necesitan aún más espacio, nuestra cabaña 8 ofrece 3 dormitorios y capacidad para hasta 6 personas. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
+    "maxCapacity": 4,
+    "description": "Para aquellos que necesitan aún más espacio, nuestra cabaña 8 ofrece 3 dormitorios y capacidad para hasta 4 personas. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
     "image": [
-      "https://lh3.googleusercontent.com/pw/AJFCJaV18yml5x4Rj2_URX2PGBSKNwswnoAI4kTgPpj8gukQigD6NCTkL5eyMhorY5g34N1Re46Z9oEDOo9M6roZU_98SSqVLSBjcmVQikmOHDiGq-iyuRrSck7BIb_s32fYBqrcmhMjVd28tF_6UAchQGYj=w689-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaUAhEEL-Ovu9QaHFl1R-STOCIMhmwDOMbhC-VIi8GT6kYzQA-WPGvk4m1VX_bpm3sAXZn2Z_fnx9VgJ6LACBeem7uDGKHAbsNwKQ-dQk1TmL99jvf9QQIyfpO7QCHgwhNA3vGcRe2-UTYuoEQj_hReYeg=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaXzVW7bjXeXfK2FiDK-GG47u1Wr6zTxx5AshITkUfJOuVyM_3f6RBXYrUNF5VbnqPpMQAZGqjKnsSTO3V85Kf-p5VIM4M__9Nu1oNkenio8pNsy7v_x19YFkhrJKIJKHC7_N3DArx2MXKC9MYMYbYEt=w1551-h1034-s-no?authuser=0"
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142916/caba%C3%B1as/caba%C3%B1a%208/8_lcjtjy.jpg",
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142914/caba%C3%B1as/caba%C3%B1a%208/8_hauprh.jpg"
     ],
     "availability": [],
-    "price": "Consultar"
+    "price": "Consultar",
+    "distribucion": [
+      "2 Dormitorios estándar",
+      "Capacidad para 7 personas",
+      "Baño",
+      "Quincho con asador"
+    ],
+    "equipamiento": [
+      "Heladera",
+      "cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera",
+      "Quincho con Asador"
+    ]
   },
   {
     "id": 9,
@@ -149,24 +235,56 @@
     "description": "Para aquellos que necesitan aún más espacio, nuestra cabaña 9 ofrece 3 dormitorios y capacidad para hasta 6 personas. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
     "image": [
       "https://lh3.googleusercontent.com/pw/AJFCJaUKI-vcCgFHQRiqVOJfpmgEhDM2zg8hK3Bw4hrk3iFwKLCV9kCCo-rk6mIOLcALpLzDugK3hHn8-fvbKrKEyo9Kd7Cl6agfK9_7OM8L_jNLyQDjLYVOyP0vt2obW3mhTt5QEcxX2nvBqL-8hBenwjpr=w689-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaUAhEEL-Ovu9QaHFl1R-STOCIMhmwDOMbhC-VIi8GT6kYzQA-WPGvk4m1VX_bpm3sAXZn2Z_fnx9VgJ6LACBeem7uDGKHAbsNwKQ-dQk1TmL99jvf9QQIyfpO7QCHgwhNA3vGcRe2-UTYuoEQj_hReYeg=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaXzVW7bjXeXfK2FiDK-GG47u1Wr6zTxx5AshITkUfJOuVyM_3f6RBXYrUNF5VbnqPpMQAZGqjKnsSTO3V85Kf-p5VIM4M__9Nu1oNkenio8pNsy7v_x19YFkhrJKIJKHC7_N3DArx2MXKC9MYMYbYEt=w1551-h1034-s-no?authuser=0"
+      "https://res.cloudinary.com/dhrfu31jp/video/upload/v1687142802/caba%C3%B1as/caba%C3%B1a%209/9_video_asakbo.mp4"
     ],
     "availability": [],
-    "price": "Consultar"
+    "price": "Consultar",
+    "distribucion": [
+      "3 Dormitorios estándar",
+      "Capacidad para 6 personas",
+      "Baño",
+      "Quincho con asador"
+    ],
+    "equipamiento": [
+      "Heladera",
+      "cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera",
+      "Quincho con Asador"
+    ]
   },
   {
     "id": 10,
     "name": "Cabaña 10",
     "maxCapacity": 6,
-    "description": "Para aquellos que necesitan aún más espacio, nuestra cabaña 10 ofrece 3 dormitorios y capacidad para hasta 6 personas. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
+    "description": "Para aquellos que necesitan aún más espacio, nuestra cabaña 10 ofrece 3 dormitorios y capacidad para hasta 6 personas y 2 baños. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
     "image": [
       "https://lh3.googleusercontent.com/pw/AJFCJaVO-Ef36utNyvI0HbHP8peHsV6koFXPHfJzL9Gbi1v8YqKWz0sK5ib4EGOBpQkwa2OWYbg6voKwCgZQMlPZolt2ZgvP_wgK6mCl6-VBRr2cy2sqfWI40oGdf6ueyq_mGo4aHJdvfPCpFKfAfV0CK7LB=w689-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaUAhEEL-Ovu9QaHFl1R-STOCIMhmwDOMbhC-VIi8GT6kYzQA-WPGvk4m1VX_bpm3sAXZn2Z_fnx9VgJ6LACBeem7uDGKHAbsNwKQ-dQk1TmL99jvf9QQIyfpO7QCHgwhNA3vGcRe2-UTYuoEQj_hReYeg=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaXzVW7bjXeXfK2FiDK-GG47u1Wr6zTxx5AshITkUfJOuVyM_3f6RBXYrUNF5VbnqPpMQAZGqjKnsSTO3V85Kf-p5VIM4M__9Nu1oNkenio8pNsy7v_x19YFkhrJKIJKHC7_N3DArx2MXKC9MYMYbYEt=w1551-h1034-s-no?authuser=0"
+      "https://res.cloudinary.com/dhrfu31jp/video/upload/v1687142832/caba%C3%B1as/caba%C3%B1a%2010/10_video_iqckal.mp4"
     ],
     "availability": [],
-    "price": "Consultar"
+    "price": "Consultar",
+    "distribucion": [
+      "3 Dormitorios estándar",
+      "Capacidad para 6 personas",
+      "2 Baños",
+      "Quincho con asador"
+    ],
+    "equipamiento": [
+      "Heladera",
+      "cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera",
+      "Quincho con Asador"
+    ]
   },
   {
     "id": 11,
@@ -174,24 +292,55 @@
     "maxCapacity": 5,
     "description": "Con capacidad para hasta 5 personas, esta cabaña te ofrece todas las comodidades y electrodomésticos mencionados anteriormente. Es perfecta para aquellos que buscan un lugar acogedor y confortable.",
     "image": [
-      "https://lh3.googleusercontent.com/pw/AJFCJaUKI-vcCgFHQRiqVOJfpmgEhDM2zg8hK3Bw4hrk3iFwKLCV9kCCo-rk6mIOLcALpLzDugK3hHn8-fvbKrKEyo9Kd7Cl6agfK9_7OM8L_jNLyQDjLYVOyP0vt2obW3mhTt5QEcxX2nvBqL-8hBenwjpr=w689-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaUAhEEL-Ovu9QaHFl1R-STOCIMhmwDOMbhC-VIi8GT6kYzQA-WPGvk4m1VX_bpm3sAXZn2Z_fnx9VgJ6LACBeem7uDGKHAbsNwKQ-dQk1TmL99jvf9QQIyfpO7QCHgwhNA3vGcRe2-UTYuoEQj_hReYeg=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaXzVW7bjXeXfK2FiDK-GG47u1Wr6zTxx5AshITkUfJOuVyM_3f6RBXYrUNF5VbnqPpMQAZGqjKnsSTO3V85Kf-p5VIM4M__9Nu1oNkenio8pNsy7v_x19YFkhrJKIJKHC7_N3DArx2MXKC9MYMYbYEt=w1551-h1034-s-no?authuser=0"
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142943/caba%C3%B1as/caba%C3%B1a%2011/11_lukpg3.png",
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142942/caba%C3%B1as/caba%C3%B1a%2011/11_esh4cs.jpg"
     ],
     "availability": [],
-    "price": "Consultar"
+    "price": "Consultar",
+    "distribucion": [
+      "1 Dormitorio",
+      "Capacidad para 5 personas",
+      "Baño",
+      "Quincho con asador"
+    ],
+    "equipamiento": [
+      "Heladera",
+      "cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera",
+      "Quincho con Asador"
+    ]
   },
   {
     "id": 12,
     "name": "Cabaña 12",
     "maxCapacity": 5,
-    "description": "Nuestra cabaña 12 cuenta con 1 dormitorio superior y capacidad para hasta 5 personas. Disfruta de una estancia tranquila y relajante con todos los electrodomésticos y servicios que necesitas.",
+    "description": "Nuestra cabaña 12 cuenta con 1 dormitorio superior y capacidad para hasta 5 personas. Disfruta de una estancia tranquila y relajante con todos los electrodomésticos y equipamiento que necesitas.",
     "image": [
-      "https://lh3.googleusercontent.com/pw/AJFCJaUKI-vcCgFHQRiqVOJfpmgEhDM2zg8hK3Bw4hrk3iFwKLCV9kCCo-rk6mIOLcALpLzDugK3hHn8-fvbKrKEyo9Kd7Cl6agfK9_7OM8L_jNLyQDjLYVOyP0vt2obW3mhTt5QEcxX2nvBqL-8hBenwjpr=w689-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaUAhEEL-Ovu9QaHFl1R-STOCIMhmwDOMbhC-VIi8GT6kYzQA-WPGvk4m1VX_bpm3sAXZn2Z_fnx9VgJ6LACBeem7uDGKHAbsNwKQ-dQk1TmL99jvf9QQIyfpO7QCHgwhNA3vGcRe2-UTYuoEQj_hReYeg=w582-h1034-s-no?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AJFCJaXzVW7bjXeXfK2FiDK-GG47u1Wr6zTxx5AshITkUfJOuVyM_3f6RBXYrUNF5VbnqPpMQAZGqjKnsSTO3V85Kf-p5VIM4M__9Nu1oNkenio8pNsy7v_x19YFkhrJKIJKHC7_N3DArx2MXKC9MYMYbYEt=w1551-h1034-s-no?authuser=0"
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142956/caba%C3%B1as/caba%C3%B1a%2012/12_q5hwzi.png"
     ],
     "availability": [],
-    "price": "Consultar"
+    "price": "Consultar",
+    "distribucion": [
+      "1 Dormitorios superior",
+      "Capacidad para 5 personas",
+      "Baño",
+      "Quincho con asador"
+    ],
+    "equipamiento": [
+      "Heladera",
+      "cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera propia",
+      "Quincho con Asador"
+    ]
   }
 ]
