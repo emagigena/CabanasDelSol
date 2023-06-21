@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Divider } from "semantic-ui-react";
 import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import logo from '../../public/logo2NavBar.png';
 
 export default function NavBar({
   cabinRef,
@@ -61,10 +62,10 @@ export default function NavBar({
           href="/"
           className="ml-4 flex md:hidden align-items-center text-center items-center space-x-2"
         >
-          <Image src="/logo2NavBar.png" alt="Logo" width={300} height={300} />
+          <Image src={logo} alt="Logo" width={300} height={300} />
         </Link>
         <Link href="/" className="hidden md:block items-center space-x-2">
-          <Image src="/logo2NavBar.png" alt="Logo" width={300} height={300} />
+          <Image src={logo} alt="Logo" width={300} height={300} />
         </Link>
         <div className="hidden md:block space-x-4 mr-4">
           {cabinRef ? (
