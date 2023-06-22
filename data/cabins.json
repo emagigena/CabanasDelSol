@@ -203,7 +203,7 @@
     "id": 8,
     "name": "Cabaña 8",
     "maxCapacity": 4,
-    "description": "Para aquellos que necesitan aún más espacio, nuestra cabaña 8 ofrece 3 dormitorios y capacidad para hasta 4 personas. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
+    "description": "Para aquellos que necesitan aún más espacio, nuestra cabaña 8 ofrece 2 dormitorios y capacidad para hasta 8 personas. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
     "image": [
       "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142916/caba%C3%B1as/caba%C3%B1a%208/8_lcjtjy.jpg",
       "https://res.cloudinary.com/dhrfu31jp/image/upload/v1687142914/caba%C3%B1as/caba%C3%B1a%208/8_hauprh.jpg"
@@ -211,8 +211,8 @@
     "availability": [],
     "price": "Consultar",
     "distribucion": [
-      "2 Dormitorios estándar",
-      "Capacidad para 7 personas",
+      "2 Dormitorios superiores",
+      "Capacidad para 8 personas",
       "Baño",
       "Quincho con asador"
     ],
