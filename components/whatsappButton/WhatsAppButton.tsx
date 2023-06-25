@@ -1,5 +1,7 @@
 import React from "react";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import img from "../../public/off.png";
+import  Image  from "next/image";
 
 const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
@@ -10,9 +12,14 @@ const WhatsAppButton = () => {
 
   return (
     <div className="whatsapp-button">
-      <button onClick={handleWhatsAppClick}>
-        <WhatsAppIcon />
-      </button>
+      {/* <button onClick={handleWhatsAppClick}> */}
+      <Image
+        src={img}
+        alt={""}
+        width={200}
+        height={200}
+      />
+      {/* </button> */}
     </div>
   );
 };

@@ -2,7 +2,6 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 
-
 const CustomCarousel = ({ cabins }) => {
   return (
     <>
@@ -24,26 +23,16 @@ const CustomCarousel = ({ cabins }) => {
                 }}
               />
             ) : (
-              <>
-                <div className="absolute top-2 right-10 flex items-center justify-center rounded-full p-2">
-                  <div>
-                    <p className="discount-text mt-1 font-bold uppercase">
-                      <LocalOfferIcon color="inherit" /> 20% OFF de lunes a
-                      jueves
-                    </p>
-                  </div>
-                </div>
-                <img
-                  src={item}
-                  alt="images"
-                  style={{
-                    borderRadius: "10px",
-                    objectFit: "cover",
-                    maxWidth: "100%",
-                    maxHeight: "600px",
-                  }}
-                />
-              </>
+              <img
+                src={item}
+                alt="images"
+                style={{
+                  borderRadius: "10px",
+                  objectFit: "cover",
+                  maxWidth: "100%",
+                  maxHeight: "600px",
+                }}
+              />
             )}
           </div>
         ))}

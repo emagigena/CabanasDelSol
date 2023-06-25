@@ -23,6 +23,7 @@ export default function MyApp({ Component, pageProps }) {
       </Head>
       <main className={`${montserrat.variable} font-sans`}>
         <Component {...pageProps} />
+        {/* <WhatsAppButton /> */}
         <Footer />
       </main>
     </>
