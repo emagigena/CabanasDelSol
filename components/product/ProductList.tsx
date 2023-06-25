@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import cabanas from "../../data/cabins.json";
 import ProductCard from "./ProductCard";
 import { Carousel } from "react-responsive-carousel";
@@ -8,6 +8,20 @@ import { Button } from "semantic-ui-react";
 const ProductList = () => {
   const displayedCabanas = cabanas;
   const [showMore, setShowMore] = useState(false);
+  // const [isMobile, setIsMobile] = useState(false);
+
+  // useEffect(() => {
+  //   const checkMobile = () => {
+  //     setIsMobile(window.innerWidth <= 768);
+  //   };
+
+  //   checkMobile();
+
+  //   window.addEventListener("resize", checkMobile);
+  //   return () => {
+  //     window.removeEventListener("resize", checkMobile);
+  //   };
+  // }, []);
 
   const toggleShowMore = () => {
     setShowMore(!showMore);

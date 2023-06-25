@@ -1,11 +1,10 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import cabinsData from "../../data/cabins.json";
 import AccessibilityIcon from "@mui/icons-material/Accessibility";
 import AcUnitIcon from "@mui/icons-material/AcUnit";
 import GarageIcon from "@mui/icons-material/Garage";
+import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import { Button } from "@mui/material";
 import ReservationModal from "../modal/ReservationModal";
 
@@ -15,60 +14,11 @@ function cn(...classes) {
 
 export default function ProductCard({ product }) {
   const [isLoading, setLoading] = useState(true);
-  const [availability, setAvailability] = useState("");
-
-  const handleAvailabilityCheck = (event) => {
-    event.preventDefault();
-
-    const checkInDate = event.target.elements.checkInDate.value;
-
-    // Verificar la disponibilidad en el archivo JSON
-    const cabin = cabinsData.find((cabin) => cabin.id === product.id);
-    if (cabin) {
-      const isAvailable = cabin.availability.some((booking) => {
-        const bookingStartDate = new Date(booking.checkInDate);
-        const bookingEndDate = new Date(booking.checkOutDate);
-        const selectedDate = new Date(checkInDate);
-
-        return (
-          selectedDate >= bookingStartDate && selectedDate <= bookingEndDate
-        );
-      });
-
-      if (isAvailable) {
-        setAvailability("Available");
-      } else {
-        setAvailability("Not Available");
-
-        // Realizar la reserva y actualizar el archivo JSON
-        updateCabinAvailability(product.id, checkInDate, "fecha de check-out");
-      }
-    }
-  };
-
-  function updateCabinAvailability(cabinId, checkInDate, checkOutDate) {
-    // Encuentra la cabaña correspondiente en el archivo JSON
-    const cabin = cabinsData.find((cabin) => cabin.id === cabinId);
-
-    // Actualiza la disponibilidad de la cabaña
-    cabin.availability.push({
-      checkInDate,
-      checkOutDate,
-      name: "",
-      lastName: "",
-      address: "",
-      phoneNumber: "",
-      email: "",
-    });
-
-    // Puedes mostrar un mensaje de éxito o hacer otras operaciones necesarias
-    console.log(`Reserva realizada para la cabaña con ID ${cabinId}`);
-  }
 
   return (
     <div
       style={{ borderRadius: "20px" }}
-      className="border border-grey shadow-lg rounded-lg"
+      className="border border-grey shadow-lg rounded-lg relative"
     >
       <Link href={`/products/${product.id}`} className="group">
         <div className="relative aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-9 xl:aspect-h-8">
@@ -95,7 +45,7 @@ export default function ProductCard({ product }) {
               />
 
               {/* Icono para la cantidad de personas máximas */}
-              <div className="absolute top-2 left-2 flex items-center justify-center bg-white rounded-full p-2">
+              <div className="absolute bottom-2 left-2 flex items-center justify-center bg-white rounded-full p-2">
                 <AccessibilityIcon />
                 <span className="text-gray-500 text-sm ml-1">
                   {product.maxCapacity}
@@ -103,14 +53,20 @@ export default function ProductCard({ product }) {
               </div>
 
               {/* Icono para la disponibilidad de aire acondicionado */}
-              <div className="absolute top-2 right-2 flex items-center justify-center bg-white rounded-full p-2">
+              <div className="absolute bottom-2 right-2 flex items-center justify-center bg-white rounded-full p-2">
                 <AcUnitIcon />
                 <span className="text-gray-500 text-sm ml-1">A/C</span>
               </div>
 
               {/* Icono para la disponibilidad de cochera */}
-              <div className="absolute bottom-2 left-2 flex items-center justify-center bg-white rounded-full p-2">
+              {/* <div className="absolute bottom-2 left-2 flex items-center justify-center bg-white rounded-full p-2">
                 <GarageIcon />
+              </div> */}
+              <div className="absolute top-2 right-10 flex items-center justify-center rounded-full p-2">
+                <div>
+                  <p className="discount-text mt-1 font-bold uppercase"><LocalOfferIcon color="inherit" /> 20% OFF de lunes a jueves</p>
+                  
+                </div>
               </div>
             </div>
           )}
