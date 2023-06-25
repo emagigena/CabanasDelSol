@@ -32,7 +32,7 @@ export default function ProductCard({ product }) {
             >
               <Image
                 alt="product image"
-                src={product.image[0]} // Mostrar solo la primera imagen
+                src={product.image[1]} // Mostrar solo la primera imagen
                 width={800}
                 height={800}
                 className={cn(
