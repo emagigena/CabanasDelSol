@@ -70,7 +70,7 @@ export default function ContactForm({cabinID}) {
     } = formData;
     const message = `Hola! Me gustaría reservar la cabaña ${cabinID}, se encuentra disponible estas fechas? Mis datos son:
       Nombre: ${name} ${lastName}, Telefono: ${telefono} Cantidad de personas: ${numberOfPeople}, Fecha de ingreso: ${checkInDate}, Fecha de egreso: ${checkOutDate}`;
-    const url = `https://wa.me/3424770011?text=${encodeURIComponent(message)}`; // Reemplaza XXXXXXXXXX por el número de WhatsApp de la empresa
+    const url = `https://wa.me/3424055811?text=${encodeURIComponent(message)}`; // Reemplaza XXXXXXXXXX por el número de WhatsApp de la empresa
 
     window.open(url, "_blank");
   };
