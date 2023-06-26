@@ -9,6 +9,7 @@ import ProductList from "../components/product/ProductList";
 import NavBar from "../components/navBar/NavBar";
 import ContactForm from "../components/contactForm/ContactForm";
 import ReviewList from "../components/reviews/ReviewList";
+import Price from "../components/price/Price";
 
 export default function Gallery() {
   const cabinRef = useRef<HTMLDivElement>();
@@ -60,7 +61,7 @@ export default function Gallery() {
               Contactá con Nosotros
             </p>
           </div>
-        <ContactForm cabinID={""}/>
+          <ContactForm cabinID={""} />
         </div>
       </div>
     </>

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Divider } from "semantic-ui-react";
 import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import logo from '../../public/logo2NavBar.png';
+import logo from "../../public/logo2NavBar.png";
 
 export default function NavBar({
   cabinRef,
@@ -26,6 +26,10 @@ export default function NavBar({
   // Uso de la función genérica en lugar de las funciones individuales
   const handleCabinClick = () => {
     handleScrollIntoView(cabinRef);
+  };
+
+  const handlePricesClick = () => {
+    <a href="/prices/prices"></a>;
   };
 
   const handleCarouselClick = () => {
@@ -79,6 +83,13 @@ export default function NavBar({
                 </span>
               </button>
               <button className="nav-button">
+                <span className="text-white font-semi-bold">
+                  <Link className="colorLink" href="/prices/prices">
+                    Precios
+                  </Link>
+                </span>
+              </button>
+              <button className="nav-button">
                 <span
                   className="text-white font-semi-bold"
                   onClick={handleCarouselClick}
@@ -95,7 +106,10 @@ export default function NavBar({
                 </span>
               </button>
               <button className="nav-button">
-                <span className="text-white font-semi-bold" onClick={handleMapClick}>
+                <span
+                  className="text-white font-semi-bold"
+                  onClick={handleMapClick}
+                >
                   Ubicación
                 </span>
               </button>
@@ -113,16 +127,20 @@ export default function NavBar({
           )}
         </div>
         <div className="block md:hidden slide-down">
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ color: "white" }}
-            onClick={toggleMobileNav}
-          >
-            <MenuIcon />
-          </IconButton>
+          {cabinRef ? (
+            <IconButton
+              size="large"
+              edge="start"
+              color="inherit"
+              aria-label="menu"
+              sx={{ color: "white" }}
+              onClick={toggleMobileNav}
+            >
+              <MenuIcon />
+            </IconButton>
+          ) : (
+            ""
+          )}
         </div>
       </div>
       <div
@@ -138,6 +156,15 @@ export default function NavBar({
               onClick={handleCabinClick}
             >
               Cabañas
+            </span>
+            <Divider />
+            <span
+              className="block w-full text-white font-semi-bold text-center"
+              onClick={handleCarouselClick}
+            >
+              <a className="colorLink" style={{}} href="/prices/prices">
+                Precios
+              </a>
             </span>
             <Divider />
             <span
