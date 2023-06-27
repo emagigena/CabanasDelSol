@@ -7,7 +7,7 @@ import Price from "../../components/price/Price";
 import Link from "next/link";
 import { ButtonHome } from "../../components/buttonHome/ButtonHome";
 
-export default function Prices() {
+export default function Precios() {
   return (
     <>
       <NavBar

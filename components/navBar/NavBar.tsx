@@ -29,7 +29,7 @@ export default function NavBar({
   };
 
   const handlePricesClick = () => {
-    <a href="/prices/prices"></a>;
+    <a href="/precios/precios"></a>;
   };
 
   const handleCarouselClick = () => {
@@ -87,7 +87,7 @@ export default function NavBar({
                   <Link
                     style={{ fontStyle: "none" }}
                     className="colorLink"
-                    href="/prices/prices"
+                    href="/precios/precios"
                   >
                     Precios
                   </Link>
@@ -166,7 +166,7 @@ export default function NavBar({
               className="block w-full text-white font-semi-bold text-center"
               onClick={handleCarouselClick}
             >
-              <a className="colorLink" style={{}} href="/prices/prices">
+              <a className="colorLink" style={{}} href="/precios/precios">
                 Precios
               </a>
             </span>
