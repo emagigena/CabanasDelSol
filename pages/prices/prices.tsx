@@ -37,17 +37,15 @@ export default function Prices() {
           </div>
         </div>
       </header>
-      <Price />
-      <Container>
+        <Price />
         <div className="sm:py-1 mx-auto max-w-7xl py-1 px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
+          <div className="text-center mb-10 mt-10">
             <p className="text-4xl font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl">
               Contactanos
             </p>
           </div>
           <ContactForm cabinID={""} />
         </div>
-      </Container>
     </>
   );
 }

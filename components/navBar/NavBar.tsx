@@ -68,10 +68,10 @@ export default function NavBar({
         >
           <Image src={logo} alt="Logo" width={300} height={300} />
         </Link>
-        <Link href="/" className="hidden md:block items-center space-x-2">
+        <Link href="/" className="hidden md:block items-center">
           <Image src={logo} alt="Logo" width={300} height={300} />
         </Link>
-        <div className="hidden md:block space-x-4 mr-4">
+        <div className="hidden md:block space-x-8 mr-3">
           {cabinRef ? (
             <>
               <button className="nav-button">
@@ -84,7 +84,11 @@ export default function NavBar({
               </button>
               <button className="nav-button">
                 <span className="text-white font-semi-bold">
-                  <Link className="colorLink" href="/prices/prices">
+                  <Link
+                    style={{ fontStyle: "none" }}
+                    className="colorLink"
+                    href="/prices/prices"
+                  >
                     Precios
                   </Link>
                 </span>

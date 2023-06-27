@@ -39,7 +39,7 @@
 .image-container:hover .overlay {
   opacity: 1;
 }
-.nav-button {
+.nav-button a {
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -47,7 +47,7 @@
   transition: color 0.3s ease;
 }
 
-.nav-button:hover span {
+.nav-button:hover span, a {
   color: #f1b140;
 }
 
@@ -86,20 +86,10 @@
 }
 
 .discount-banner {
-  /* position: relative; */
-  /* top: 10px;
-    left: 10px; */
   background-color: #f1b140;
   color: white;
   padding: 5px 10px;
   font-size: 12px;
-  /*  display: flex;
-  align-items: baseline;
-  border-radius: 999px;
-  z-index: 999;
-  text-align: center;
-  align-content: center;
-  align-self: center; */
 }
 
 .discount-text {
