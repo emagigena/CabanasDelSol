@@ -1,9 +1,11 @@
 import React from "react";
-import { Container, Table } from "semantic-ui-react";
+import { Button, Container, Table } from "semantic-ui-react";
 import NavBar from "../../components/navBar/NavBar";
 import Image from "next/image";
 import ContactForm from "../../components/contactForm/ContactForm";
 import Price from "../../components/price/Price";
+import Link from "next/link";
+import { ButtonHome } from "../../components/buttonHome/ButtonHome";
 
 export default function Prices() {
   return (
@@ -37,15 +39,16 @@ export default function Prices() {
           </div>
         </div>
       </header>
-        <Price />
-        <div className="sm:py-1 mx-auto max-w-7xl py-1 px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10 mt-10">
-            <p className="text-4xl font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl">
-              Contactanos
-            </p>
-          </div>
-          <ContactForm cabinID={""} />
+      <ButtonHome />
+      <Price />
+      <div className="sm:py-1 mx-auto max-w-7xl py-1 px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-10 mt-10">
+          <p className="text-4xl font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl">
+            Contactanos
+          </p>
         </div>
+        <ContactForm cabinID={""} />
+      </div>
     </>
   );
 }

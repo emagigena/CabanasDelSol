@@ -7,6 +7,7 @@ import { Grid } from "@mui/material";
 import NavBar from "../../components/navBar/NavBar";
 import ContactForm from "../../components/contactForm/ContactForm";
 import Map from "../../components/map/Map";
+import { ButtonHome } from "../../components/buttonHome/ButtonHome";
 
 export default function Product({ cabanas }) {
   return (
@@ -20,6 +21,7 @@ export default function Product({ cabanas }) {
       />
 
       <div className="block md:hidden pt-20">
+        <ButtonHome />
         <Container>
           <div className="mx-auto max-w-2xl px-4 sm:px-6 mt-10 lg:max-w-7xl lg:px-8">
             <CabinInfo cabanas={cabanas} />
