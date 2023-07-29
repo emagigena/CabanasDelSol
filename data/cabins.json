@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Cabaña 1",
     "maxCapacity": 7,
-    "description": "Disfruta de un alojamiento espacioso con 2 dormitorios y capacidad hasta 7 personas. Esta cabaña está equipada con todos los electrodomésticos que necesitas, como heladera, televisor, cocina, microondas, aire acondicionado y calefacción. Además, cuenta con un cómodo baño y antebaño, y te proporcionamos la ropa de cama para una estancia confortable.",
+    "description": "Disfruta de un alojamiento espacioso con 2 dormitorios y capacidad hasta 6/7 personas. Esta cabaña está equipada con todos los electrodomésticos que necesitas, como heladera, televisor, cocina, microondas, aire acondicionado y calefacción. Además, cuenta con un cómodo baño y antebaño, y te proporcionamos la ropa de cama para una estancia confortable.",
     "image": [
       "https://res.cloudinary.com/dvqz5xryb/video/upload/v1689602500/Caba%C3%B1as/Caba%C3%B1a%201/xff7f6rghjan1itpoqmp.mp4",
       "https://res.cloudinary.com/dvqz5xryb/image/upload/v1689602485/Caba%C3%B1as/Caba%C3%B1a%201/dctlb2aug90o7jyrmlf2.jpg",
@@ -73,7 +73,6 @@
     "description": "Con 2 dormitorios y capacidad estándar para 6 personas, esta cabaña es ideal para familias o grupos de amigos. Al igual que nuestras otras cabañas, encontrarás todos los electrodomésticos necesarios para hacer de tu estancia una experiencia memorable.",
     "image": [
       "https://res.cloudinary.com/dvqz5xryb/video/upload/v1689602616/Caba%C3%B1as/Caba%C3%B1a%203/gzka3cadazp3hnbjrztj.mp4",
-      "https://res.cloudinary.com/dvqz5xryb/video/upload/v1689602596/Caba%C3%B1as/Caba%C3%B1a%203/t8jldeyd05g0d3orjr60.mp4",
       "https://res.cloudinary.com/dvqz5xryb/image/upload/v1689602585/Caba%C3%B1as/Caba%C3%B1a%203/r0thhtykspzt3otivs5g.png",
       "https://res.cloudinary.com/dvqz5xryb/image/upload/v1689602595/Caba%C3%B1as/Caba%C3%B1a%203/wvht6xb12rklhsvv4uoa.jpg",
       "https://res.cloudinary.com/dvqz5xryb/image/upload/v1689602589/Caba%C3%B1as/Caba%C3%B1a%203/bsducect9o5sw6qtxb3p.jpg"
@@ -159,7 +158,7 @@
     "id": 6,
     "name": "Cabaña 6",
     "maxCapacity": 6,
-    "description": "Para aquellos que necesitan aún más espacio, nuestra cabaña 6 ofrece 3 dormitorios y capacidad para hasta 6 personas. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
+    "description": "Nuestra cabaña 6 ofrece 2 dormitorios y capacidad para hasta 5 personas. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
     "image": [
       "https://res.cloudinary.com/dvqz5xryb/video/upload/v1689602702/Caba%C3%B1as/Caba%C3%B1a%206/hjrjcqr2yok6ragscmsp.mp4",
       "https://res.cloudinary.com/dvqz5xryb/image/upload/v1689602690/Caba%C3%B1as/Caba%C3%B1a%206/nmtjcojip3rwulwtccqg.jpg"
@@ -168,7 +167,7 @@
     "price": "Consultar",
     "distribucion": [
       "2 Dormitorios estándar",
-      "Capacidad para 8 personas",
+      "Capacidad para 5 personas",
       "Baño completo",
       "Quincho con asador"
     ],
@@ -216,7 +215,7 @@
   {
     "id": 8,
     "name": "Cabaña 8",
-    "maxCapacity": 4,
+    "maxCapacity": 8,
     "description": "Para aquellos que necesitan aún más espacio, nuestra cabaña 8 ofrece 2 dormitorios y capacidad para hasta 8 personas. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
     "image": [
       "https://res.cloudinary.com/dvqz5xryb/image/upload/v1689602841/Caba%C3%B1as/Caba%C3%B1a%208/il3hul0nze3wcaf945bd.jpg",
@@ -245,8 +244,8 @@
   {
     "id": 9,
     "name": "Cabaña 9",
-    "maxCapacity": 6,
-    "description": "Para aquellos que necesitan aún más espacio, nuestra cabaña 9 ofrece 3 dormitorios y capacidad para hasta 6 personas. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
+    "maxCapacity": 4,
+    "description": "Nuestra cabaña 9 ofrece 1 dormitorio y capacidad para hasta 4 personas. Disfruta de todas las comodidades y electrodomésticos que necesitas para una estancia relajante.",
     "image": [
       "https://res.cloudinary.com/dvqz5xryb/video/upload/v1689602921/Caba%C3%B1as/Caba%C3%B1a%209/vxaafvvhi7rm6mzjf9bi.mp4",
       "https://res.cloudinary.com/dvqz5xryb/image/upload/v1689602892/Caba%C3%B1as/Caba%C3%B1a%209/xee4qadpyglkvhqjwrby.jpg",
@@ -256,8 +255,8 @@
     "availability": [],
     "price": "Consultar",
     "distribucion": [
-      "3 Dormitorios estándar",
-      "Capacidad para 6 personas",
+      "1 Dormitorios estándar",
+      "Capacidad para 4 personas",
       "Baño",
       "Quincho con asador"
     ],
