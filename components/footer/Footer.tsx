@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Footer() {
   const message = encodeURIComponent(
-    "¡Hola! Me interesa obtener más información para poder hospedarme en una cabaña."
+    "¡ Hola ! Me interesa obtener más información para poder hospedarme en una cabaña."
   );
   return (
     <footer

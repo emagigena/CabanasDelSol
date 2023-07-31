@@ -68,7 +68,7 @@ export default function ContactForm({cabinID}) {
       checkInDate,
       checkOutDate,
     } = formData;
-    const message = `Hola! Me gustaría reservar la cabaña ${cabinID}, se encuentra disponible estas fechas? Mis datos son:
+    const message = `Hola , Me gusaría recibir más información para reservar la cabaña ${cabinID}. Mis datos son:
       Nombre: ${name} ${lastName}, Telefono: ${telefono} Cantidad de personas: ${numberOfPeople}, Fecha de ingreso: ${checkInDate}, Fecha de egreso: ${checkOutDate}`;
     const url = `https://wa.me/3424055811?text=${encodeURIComponent(message)}`; // Reemplaza XXXXXXXXXX por el número de WhatsApp de la empresa
 
