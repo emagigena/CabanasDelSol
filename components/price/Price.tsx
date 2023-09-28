@@ -20,39 +20,39 @@ const Price = () => {
         <Table.Header>
           <Table.Row>
             <Table.HeaderCell>Tarifas por día</Table.HeaderCell>
-            <Table.HeaderCell>
+            {/* <Table.HeaderCell>
               Lunes a Jueves <span className="discount-tag"> 20% OFF</span>
-            </Table.HeaderCell>
-            <Table.HeaderCell>Viernes a Domingo</Table.HeaderCell>
+            </Table.HeaderCell> */}
+            <Table.HeaderCell>Desde</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
         <Table.Body style={{ textAlign: "center" }}>
           <Table.Row>
             <Table.Cell>Para 2 personas</Table.Cell>
-            <Table.Cell>$13.600 por día</Table.Cell>
-            <Table.Cell>$17.000 por día</Table.Cell>
+            {/* <Table.Cell>$13.600 por día</Table.Cell> */}
+            <Table.Cell> $20.000 por día</Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>Para 3 personas</Table.Cell>
-            <Table.Cell>$15.200 por día</Table.Cell>
-            <Table.Cell>$19.000 por día</Table.Cell>
+            {/* <Table.Cell>$15.200 por día</Table.Cell> */}
+            <Table.Cell> $23.000 por día</Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>Para 4-5 personas</Table.Cell>
-            <Table.Cell>$19.200 por día</Table.Cell>
-            <Table.Cell>$24.000 por día</Table.Cell>
+            {/* <Table.Cell>$19.200 por día</Table.Cell> */}
+            <Table.Cell> $24.000 por día</Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>Para 6 personas</Table.Cell>
-            <Table.Cell>$21.600 por día</Table.Cell>
-            <Table.Cell>$26.000 por día</Table.Cell>
+            {/* <Table.Cell>$21.600 por día</Table.Cell> */}
+            <Table.Cell> $31.000 por día</Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>
               <span>Para 7-8 personas</span>
             </Table.Cell>
-            <Table.Cell>$25.600 por día</Table.Cell>
-            <Table.Cell>$32.000 por día</Table.Cell>
+            {/* <Table.Cell>$25.600 por día</Table.Cell> */}
+            <Table.Cell> $38.000 por día</Table.Cell>
           </Table.Row>
         </Table.Body>
       </Table>
