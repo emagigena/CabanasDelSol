@@ -30,7 +30,7 @@ const Price = () => {
           <Table.Row>
             <Table.Cell>Para 2 personas</Table.Cell>
             {/* <Table.Cell>$13.600 por día</Table.Cell> */}
-            <Table.Cell> $27.000 por día</Table.Cell>
+            <Table.Cell>Desde $27.000 por día</Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>Para 3 personas</Table.Cell>
