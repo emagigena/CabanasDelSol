@@ -365,5 +365,35 @@
       "Cochera propia",
       "Quincho con Asador"
     ]
+  },
+  {
+    "id": 13,
+    "name": "Casa Del Sol",
+    "maxCapacity": 10,
+    "description": "Nuestra Casa tiene capacidad para 8 a 10 personas, con 3 dormitorios en suite distribuidos de manera conveniente para tu comodidad. Uno de los dormitorios se encuentra en planta baja, mientras que los otros dos están en planta alta. Las habitaciones están equipadas con camas matrimoniales e individuales para adaptarse a tus necesidades. Además, cuenta con 2 baños, balcón y un quincho cerrado con asador para disfrutar de momentos inolvidables en familia o con amigos.",
+    "image": [
+      "/videos/13 video.mp4",
+      "https://lh3.googleusercontent.com/pw/ABLVV85ZjyApAomVodBVIbbblUtVf29Z7jGOad3EFEB9oan79s2WdAaP1NmY8YLWpBNdUeVaMfHPnXYlYVc-M0eCzc1qLWmL7nFp8SpCEeuXlqHTJ_Awfrhjx53GhM4cl6AXJ42ZpFyTq9huSsO2x71OFB4Z=w621-h931-s-no-gm?authuser=2"
+    ],
+    "availability": [],
+    "price": "Consultar",
+    "distribucion": [
+      "3 Dormitorios en suite (1 en planta baja y 2 en planta alta)",
+      "Capacidad para 8 a 10 personas",
+      "2 Baños",
+      "Balcón",
+      "Quincho cerrado con asador"
+    ],
+    "equipamiento": [
+      "Heladera",
+      "Cocina",
+      "Vajilla",
+      "Electrodomésticos",
+      "Ropa de cama",
+      "TV",
+      "Aire Acondicionado",
+      "Cochera propia",
+      "Quincho cerrado con asador"
+    ]
   }
 ]
