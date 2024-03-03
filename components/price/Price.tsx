@@ -30,29 +30,36 @@ const Price = () => {
           <Table.Row>
             <Table.Cell>Para 2 personas</Table.Cell>
             {/* <Table.Cell>$13.600 por día</Table.Cell> */}
-            <Table.Cell>Desde $35.000 por día</Table.Cell>
+            <Table.Cell>Desde $40.000 por día</Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>Para 3 personas</Table.Cell>
             {/* <Table.Cell>$15.200 por día</Table.Cell> */}
-            <Table.Cell>Desde $38.000 por día</Table.Cell>
+            <Table.Cell>Desde $45.000 por día</Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>Para 4-5 personas</Table.Cell>
             {/* <Table.Cell>$19.200 por día</Table.Cell> */}
-            <Table.Cell>Desde $40.000 por día</Table.Cell>
+            <Table.Cell>Desde $50.000 por día</Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>Para 6 personas</Table.Cell>
             {/* <Table.Cell>$21.600 por día</Table.Cell> */}
-            <Table.Cell>Desde $55.000 por día</Table.Cell>
+            <Table.Cell>Desde $65.000 por día</Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>
               <span>Para 7-8 personas</span>
             </Table.Cell>
             {/* <Table.Cell>$25.600 por día</Table.Cell> */}
-            <Table.Cell>Desde $65.000 por día</Table.Cell>
+            <Table.Cell>Desde $75.000 por día</Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>
+              <span>Para 9-10 personas</span>
+            </Table.Cell>
+            {/* <Table.Cell>$25.600 por día</Table.Cell> */}
+            <Table.Cell>Desde $105.000 por día</Table.Cell>
           </Table.Row>
         </Table.Body>
       </Table>
