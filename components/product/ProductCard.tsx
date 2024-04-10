@@ -64,7 +64,7 @@ export default function ProductCard({ product }) {
               </div> */}
               <div className="absolute top-2 right-10 flex items-center justify-center rounded-full p-2">
                 <div>
-                  <p className="discount-text mt-1 font-bold uppercase"><LocalOfferIcon color="inherit" />Temporada de Verano ABIERTA</p>
+                  <p className="discount-text mt-1 font-bold uppercase"><LocalOfferIcon color="inherit" />¡10% OFF DIAS DE SEMANA!</p>
                   
                 </div>
               </div>
