@@ -1,13 +1,15 @@
-import React, { useEffect, useState } from "react";
-import cabanas from "../../data/cabins.json";
-import ProductCard from "./ProductCard";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Button } from "semantic-ui-react";
+"use client"
+
+import { useState } from "react"
+import cabanas from "../../data/cabins.json"
+import ProductCard from "./ProductCard"
+import { Carousel } from "react-responsive-carousel"
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Button } from "semantic-ui-react"
 
 const ProductList = () => {
-  const displayedCabanas = cabanas;
-  const [showMore, setShowMore] = useState(false);
+  const displayedCabanas = cabanas
+  const [showMore, setShowMore] = useState(false)
   // const [isMobile, setIsMobile] = useState(false);
 
   // useEffect(() => {
@@ -24,8 +26,8 @@ const ProductList = () => {
   // }, []);
 
   const toggleShowMore = () => {
-    setShowMore(!showMore);
-  };
+    setShowMore(!showMore)
+  }
 
   return (
     <>
@@ -68,10 +70,7 @@ const ProductList = () => {
         </div>
         {!showMore && (
           <div className="flex justify-center mt-6">
-            <Button
-              onClick={toggleShowMore}
-              style={{ backgroundColor: "#F1B140", color: "white" }}
-            >
+            <Button onClick={toggleShowMore} style={{ backgroundColor: "#F1B140", color: "white" }}>
               Ver más
             </Button>
           </div>
@@ -87,7 +86,8 @@ const ProductList = () => {
         )}
       </div>
     </>
-  );
-};
+  )
+}
 
-export default ProductList;
+export default ProductList
+

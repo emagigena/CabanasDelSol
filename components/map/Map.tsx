@@ -1,6 +1,5 @@
-import Image from "next/image";
-import React from "react";
-import maps from "../../data/images/maps.png";
+import Image from "next/image"
+import maps from "../../data/images/maps.png"
 
 const Map = () => {
   return (
@@ -20,7 +19,8 @@ const Map = () => {
         </a>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Map;
+export default Map
+

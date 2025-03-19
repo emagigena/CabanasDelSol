@@ -1,5 +1,5 @@
-import { Carousel } from "react-responsive-carousel";
-import itemData from "../../data/itemData.json";
+import { Carousel } from "react-responsive-carousel"
+import itemData from "../../data/itemData.json"
 
 const CarouselHome = () => {
   return (
@@ -27,7 +27,8 @@ const CarouselHome = () => {
         </Carousel>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default CarouselHome;
+export default CarouselHome
+

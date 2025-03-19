@@ -44,12 +44,7 @@
     ],
     "availability": [],
     "price": "Consultar",
-    "distribucion": [
-      "1 Dormitorios estándar",
-      "Capacidad para 4 personas",
-      "Baño completo",
-      "Quincho con asador"
-    ],
+    "distribucion": ["1 Dormitorios estándar", "Capacidad para 4 personas", "Baño completo", "Quincho con asador"],
     "equipamiento": [
       "Heladera",
       "cocina",
@@ -75,12 +70,7 @@
       "https://lh3.googleusercontent.com/pw/AIL4fc_PH8AIsWmL50Mo05aQ5i8I2F9_-cvWhBHWRzMwcVclF0n-9Zw2V7zChk7ZjxtxzGCiZeB92sP0EmYNUPm76tw1GDbhlzu_QQndAuiHl2C86HzN2mAd2MYO1TfgxFVfkkQA39zdEVyCET6VyienPf9e=w524-h931-s-no?authuser=2"
     ],
     "price": "Consultar",
-    "distribucion": [
-      "2 Dormitorios estándar",
-      "Capacidad para 6 personas",
-      "Baño completo",
-      "Quincho con asador"
-    ],
+    "distribucion": ["2 Dormitorios estándar", "Capacidad para 6 personas", "Baño completo", "Quincho con asador"],
     "equipamiento": [
       "Heladera",
       "cocina",
@@ -106,12 +96,7 @@
     ],
     "availability": [],
     "price": "Consultar",
-    "distribucion": [
-      "2 Dormitorios estándar",
-      "Capacidad para 6 personas",
-      "Baño completo",
-      "Quincho con asador"
-    ],
+    "distribucion": ["2 Dormitorios estándar", "Capacidad para 6 personas", "Baño completo", "Quincho con asador"],
     "equipamiento": [
       "Heladera",
       "cocina",
@@ -136,12 +121,7 @@
     ],
     "availability": [],
     "price": "Consultar",
-    "distribucion": [
-      "2 Dormitorios estándar",
-      "Capacidad para 5 personas",
-      "Baño completo",
-      "Quincho con asador"
-    ],
+    "distribucion": ["2 Dormitorios estándar", "Capacidad para 5 personas", "Baño completo", "Quincho con asador"],
     "equipamiento": [
       "Heladera",
       "cocina",
@@ -166,12 +146,7 @@
     ],
     "availability": [],
     "price": "Consultar",
-    "distribucion": [
-      "2 Dormitorios estándar",
-      "Capacidad para 5 personas",
-      "Baño completo",
-      "Quincho con asador"
-    ],
+    "distribucion": ["2 Dormitorios estándar", "Capacidad para 5 personas", "Baño completo", "Quincho con asador"],
     "equipamiento": [
       "Heladera",
       "cocina",
@@ -196,12 +171,7 @@
     ],
     "availability": [],
     "price": "Consultar",
-    "distribucion": [
-      "2 Dormitorios superiores",
-      "Capacidad para 8 personas",
-      "Baño completo",
-      "Quincho con asador"
-    ],
+    "distribucion": ["2 Dormitorios superiores", "Capacidad para 8 personas", "Baño completo", "Quincho con asador"],
     "equipamiento": [
       "Heladera",
       "cocina",
@@ -229,12 +199,7 @@
     ],
     "availability": [],
     "price": "Consultar",
-    "distribucion": [
-      "2 Dormitorios superiores",
-      "Capacidad para 8 personas",
-      "Baño",
-      "Quincho con asador"
-    ],
+    "distribucion": ["2 Dormitorios superiores", "Capacidad para 8 personas", "Baño", "Quincho con asador"],
     "equipamiento": [
       "Heladera",
       "cocina",
@@ -260,12 +225,7 @@
     ],
     "availability": [],
     "price": "Consultar",
-    "distribucion": [
-      "1 Dormitorios estándar",
-      "Capacidad para 4 personas",
-      "Baño",
-      "Quincho con asador"
-    ],
+    "distribucion": ["1 Dormitorios estándar", "Capacidad para 4 personas", "Baño", "Quincho con asador"],
     "equipamiento": [
       "Heladera",
       "cocina",
@@ -290,12 +250,7 @@
     ],
     "availability": [],
     "price": "Consultar",
-    "distribucion": [
-      "3 Dormitorios estándar",
-      "Capacidad para 6 personas",
-      "2 Baños",
-      "Quincho con asador"
-    ],
+    "distribucion": ["3 Dormitorios estándar", "Capacidad para 6 personas", "2 Baños", "Quincho con asador"],
     "equipamiento": [
       "Heladera",
       "cocina",
@@ -319,12 +274,7 @@
     ],
     "availability": [],
     "price": "Consultar",
-    "distribucion": [
-      "1 Dormitorio",
-      "Capacidad para 5 personas",
-      "Baño",
-      "Quincho con asador"
-    ],
+    "distribucion": ["1 Dormitorio", "Capacidad para 5 personas", "Baño", "Quincho con asador"],
     "equipamiento": [
       "Heladera",
       "cocina",
@@ -348,12 +298,7 @@
     ],
     "availability": [],
     "price": "Consultar",
-    "distribucion": [
-      "1 Dormitorios superior",
-      "Capacidad para 5 personas",
-      "Baño",
-      "Quincho con asador"
-    ],
+    "distribucion": ["1 Dormitorios superior", "Capacidad para 5 personas", "Baño", "Quincho con asador"],
     "equipamiento": [
       "Heladera",
       "cocina",
@@ -397,3 +342,4 @@
     ]
   }
 ]
+

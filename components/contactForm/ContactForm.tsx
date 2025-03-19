@@ -1,7 +1,9 @@
-import React, { useState } from "react";
-import { TextField, Button } from "@mui/material";
+"use client"
 
-export default function ContactForm({cabinID}) {
+import { useState } from "react"
+import { TextField, Button } from "@mui/material"
+
+export default function ContactForm({ cabinID }) {
   const [formData, setFormData] = useState({
     name: "",
     lastName: "",
@@ -9,18 +11,18 @@ export default function ContactForm({cabinID}) {
     numberOfPeople: "",
     checkInDate: "",
     checkOutDate: "",
-  });
+  })
 
   const handleChange = (event) => {
-    const { name, value } = event.target;
+    const { name, value } = event.target
     setFormData((prevFormData) => ({
       ...prevFormData,
       [name]: value,
-    }));
-  };
+    }))
+  }
 
   const handleSubmit = (event) => {
-    event.preventDefault(); // Evita que el formulario se envíe automáticamente
+    event.preventDefault() // Evita que el formulario se envíe automáticamente
 
     // Validar campos
     if (
@@ -31,49 +33,37 @@ export default function ContactForm({cabinID}) {
       formData.checkInDate === "" ||
       formData.checkOutDate === ""
     ) {
-      alert(
-        "Por favor completa todos los campos antes de enviar el formulario."
-      );
-      return;
+      alert("Por favor completa todos los campos antes de enviar el formulario.")
+      return
     }
 
     // Validar formato de campos
-    const phoneNumberRegex = /^\d+$/;
-    const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
+    const phoneNumberRegex = /^\d+$/
+    const dateRegex = /^\d{4}-\d{2}-\d{2}$/
 
     if (!phoneNumberRegex.test(formData.telefono)) {
-      alert("Por favor ingresa un número de teléfono válido.");
-      return;
+      alert("Por favor ingresa un número de teléfono válido.")
+      return
     }
 
     if (!Number.isInteger(Number(formData.numberOfPeople))) {
-      alert("Por favor ingresa una cantidad de personas válida.");
-      return;
+      alert("Por favor ingresa una cantidad de personas válida.")
+      return
     }
 
-    if (
-      !dateRegex.test(formData.checkInDate) ||
-      !dateRegex.test(formData.checkOutDate)
-    ) {
-      alert("Por favor ingresa fechas de ingreso y egreso válidas.");
-      return;
+    if (!dateRegex.test(formData.checkInDate) || !dateRegex.test(formData.checkOutDate)) {
+      alert("Por favor ingresa fechas de ingreso y egreso válidas.")
+      return
     }
 
     // Enviar formulario
-    const {
-      name,
-      lastName,
-      telefono,
-      numberOfPeople,
-      checkInDate,
-      checkOutDate,
-    } = formData;
+    const { name, lastName, telefono, numberOfPeople, checkInDate, checkOutDate } = formData
     const message = `Hola , Me gusaría recibir más información para reservar la cabaña ${cabinID}. Mis datos son:
-      Nombre: ${name} ${lastName}, Telefono: ${telefono} Cantidad de personas: ${numberOfPeople}, Fecha de ingreso: ${checkInDate}, Fecha de egreso: ${checkOutDate}`;
-    const url = `https://wa.me/3424055811?text=${encodeURIComponent(message)}`; // Reemplaza XXXXXXXXXX por el número de WhatsApp de la empresa
+      Nombre: ${name} ${lastName}, Telefono: ${telefono} Cantidad de personas: ${numberOfPeople}, Fecha de ingreso: ${checkInDate}, Fecha de egreso: ${checkOutDate}`
+    const url = `https://wa.me/3424055811?text=${encodeURIComponent(message)}` // Reemplaza XXXXXXXXXX por el número de WhatsApp de la empresa
 
-    window.open(url, "_blank");
-  };
+    window.open(url, "_blank")
+  }
 
   return (
     <>
@@ -148,14 +138,11 @@ export default function ContactForm({cabinID}) {
           }}
           style={{ marginBottom: "10px", borderColor: "#F1B140" }}
         />
-        <Button
-          variant="contained"
-          onClick={handleSubmit}
-          style={{ marginBottom: "30px", backgroundColor: "#F1B140" }}
-        >
+        <Button variant="contained" onClick={handleSubmit} style={{ marginBottom: "30px", backgroundColor: "#F1B140" }}>
           Enviar a WhatsApp
         </Button>
       </form>
     </>
-  );
+  )
 }
+

@@ -1,33 +1,31 @@
-import React, { useState } from "react";
-import { Button, Modal } from "semantic-ui-react";
-import CabinInfo from "../cabinInfo/CabinInfo";
-import CustomCarousel from "../carousel/Carousel";
-import ContactForm from "../contactForm/ContactForm";
-import { Grid } from "@mui/material";
-import Map from "../map/Map";
+"use client"
+
+import { useState } from "react"
+import { Button, Modal } from "semantic-ui-react"
+import CabinInfo from "../cabinInfo/CabinInfo"
+import CustomCarousel from "../carousel/Carousel"
+import ContactForm from "../contactForm/ContactForm"
+import { Grid } from "@mui/material"
+import Map from "../map/Map"
 // import "./ReservationModal.css"; // Importar el archivo CSS personalizado
 
 export default function ReservationModal({ cabin }) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false)
 
   const handleOpen = () => {
-    setOpen(true);
-  };
+    setOpen(true)
+  }
 
   const handleClose = () => {
-    setOpen(false);
-  };
+    setOpen(false)
+  }
 
   return (
     <Modal
       open={open}
       onOpen={handleOpen}
       onClose={handleClose}
-      trigger={
-        <Button style={{ backgroundColor: "#F1B140", color: "white" }}>
-          ¡Quiero Reservar!
-        </Button>
-      }
+      trigger={<Button style={{ backgroundColor: "#F1B140", color: "white" }}>¡Quiero Reservar!</Button>}
       closeIcon
       className="reservation-modal" // Agregar la clase CSS personalizada al modal
     >
@@ -60,9 +58,10 @@ export default function ReservationModal({ cabin }) {
         <div className="block md:hidden ">
           <CabinInfo cabanas={cabin} />
           <CustomCarousel cabins={cabin.image} />
-          <ContactForm cabinID={cabin.id}/>
+          <ContactForm cabinID={cabin.id} />
         </div>
       </Modal.Content>
     </Modal>
-  );
+  )
 }
+

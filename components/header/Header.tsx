@@ -1,4 +1,4 @@
-import React from "react";
+"use client"
 
 export default function Header({ scrollHandler }) {
   return (
@@ -15,9 +15,7 @@ export default function Header({ scrollHandler }) {
           </div>
           <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
             <h1 className="mt-1 text-center font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-7xl">
-              <span className="block text-white">
-                Vení a disfrutar a nuestro complejo
-              </span>
+              <span className="block text-white">Vení a disfrutar a nuestro complejo</span>
             </h1>
 
             <div className="mx-auto mt-10 max-w-xs sm:flex sm:max-w-none sm:justify-center">
@@ -32,5 +30,6 @@ export default function Header({ scrollHandler }) {
         </div>
       </div>
     </header>
-  );
+  )
 }
+

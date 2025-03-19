@@ -1,6 +1,4 @@
-import React from "react";
-import { Table } from "semantic-ui-react";
-import AccessibilityIcon from "@mui/icons-material/Accessibility";
+import { Table } from "semantic-ui-react"
 
 const Price = () => {
   return (
@@ -10,10 +8,7 @@ const Price = () => {
           TARIFAS
         </p>
         <div style={{ marginTop: "20px" }}>
-          <span>
-            Niños menores a 3 años no abonan estadía, consultar por cambios o
-            respectivas modificaciones
-          </span>
+          <span>Niños menores a 3 años no abonan estadía, consultar por cambios o respectivas modificaciones</span>
         </div>
       </div>
       <Table celled className="styled-table">
@@ -64,7 +59,8 @@ const Price = () => {
         </Table.Body>
       </Table>
     </div>
-  );
-};
+  )
+}
 
-export default Price;
+export default Price
+

@@ -1,25 +1,27 @@
-import { useEffect, useState } from "react";
-import { Button, Modal } from "semantic-ui-react";
+"use client"
+
+import { useEffect, useState } from "react"
+import { Button, Modal } from "semantic-ui-react"
 
 const CookieBanner = () => {
-  const [showModal, setShowModal] = useState(false);
-  const [cookiesAccepted, setCookiesAccepted] = useState(false);
+  const [showModal, setShowModal] = useState(false)
+  const [cookiesAccepted, setCookiesAccepted] = useState(false)
 
   const handleAcceptCookies = () => {
     // Lógica para almacenar la preferencia del usuario sobre las cookies
-    setCookiesAccepted(true);
-    setShowModal(false);
-  };
+    setCookiesAccepted(true)
+    setShowModal(false)
+  }
 
   const handleRejectCookies = () => {
     // Lógica para almacenar la preferencia del usuario sobre las cookies
-    setCookiesAccepted(false);
-    setShowModal(false);
-  };
+    setCookiesAccepted(false)
+    setShowModal(false)
+  }
 
   useEffect(() => {
-    setShowModal(true);
-  }, []);
+    setShowModal(true)
+  }, [])
 
   return (
     <Modal
@@ -35,10 +37,7 @@ const CookieBanner = () => {
       }}
     >
       <Modal.Content>
-        <p>
-          Este sitio web utiliza cookies para ofrecerte una mejor experiencia de
-          usuario.
-        </p>
+        <p>Este sitio web utiliza cookies para ofrecerte una mejor experiencia de usuario.</p>
       </Modal.Content>
       <Modal.Actions>
         <Button color="green" className={"flex"} onClick={handleAcceptCookies}>
@@ -49,15 +48,16 @@ const CookieBanner = () => {
         </Button>
       </Modal.Actions>
     </Modal>
-  );
-};
+  )
+}
 
 export default function DynamicCookieBanner() {
-  const [shouldRender, setShouldRender] = useState(false);
+  const [shouldRender, setShouldRender] = useState(false)
 
   useEffect(() => {
-    setShouldRender(true);
-  }, []);
+    setShouldRender(true)
+  }, [])
 
-  return shouldRender ? <CookieBanner /> : null;
+  return shouldRender ? <CookieBanner /> : null
 }
+

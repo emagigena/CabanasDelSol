@@ -1,6 +1,5 @@
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import LocalOfferIcon from "@mui/icons-material/LocalOffer";
+import { Carousel } from "react-responsive-carousel"
+import "react-responsive-carousel/lib/styles/carousel.min.css"
 
 const CustomCarousel = ({ cabins }) => {
   return (
@@ -38,7 +37,8 @@ const CustomCarousel = ({ cabins }) => {
         ))}
       </Carousel>
     </>
-  );
-};
+  )
+}
 
-export default CustomCarousel;
+export default CustomCarousel
+
