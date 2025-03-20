@@ -20,9 +20,9 @@ const About = () => {
           <span>
             Todas las cabañas se encuentran en planta baja, e incluyen: calefacción, tv con directv, ropa de cama,
             vajillas, quincho con asador, cochera. Todas las habitaciones cuentan con aire acondionado, tiene un costo
-            adicional de $50. X KW. (tiene un medidor de consumo) El complejo, cuenta con dos piletas grandes a
+            adicional de KW por hora. (tiene un medidor de consumo) El complejo, cuenta con dos piletas grandes a
             compartir (solo verano), 1.100 metros de costa, dos muelles flotantes, plaza para los niños, granja con
-            animales y un quincho comunitario al lado del rio. Las visitas a pasar el día tienen un costo de $800 por
+            animales y un quincho comunitario al lado del rio. Las visitas a pasar el día tienen un costo de $8000 por
             persona, a partir de los 3 años. Nuestras cabañas están ubicadas en un predio de 30 hectáreas, sobre el rio
             y en el campo. En contacto con la naturaleza. No aceptamos mascotas.
           </span>

@@ -38,12 +38,12 @@ export default function PreciosPage() {
                   <li>Cochera</li>
                 </ul>
                 <p className="text-gray-600">
-                  El aire acondicionado tiene un costo adicional de $50 por KW (tiene un medidor de consumo).
+                  El aire acondicionado tiene un costo adicional por KW (tiene un medidor de consumo).
                 </p>
                 <p className="text-gray-600 mt-2">Lo único que NO incluyen las cabañas son toallas y toallones.</p>
                 <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-md">
                   <p className="text-sm text-yellow-800">
-                    <strong>Nota:</strong> Las visitas a pasar el día tienen un costo de $800 por persona, a partir de
+                    <strong>Nota:</strong> Las visitas a pasar el día tienen un costo de $8000 por persona, a partir de
                     los 3 años.
                   </p>
                 </div>

@@ -6,6 +6,7 @@ import { Search, Menu, X, MapPin, User } from "lucide-react"
 // We'll use a text logo instead of an image since the image file is missing
 import logo from "../../public/logo2NavBar.png"
 import Image from "next/image"
+// import ThemeToggle from "../theme-toggle"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -44,19 +45,19 @@ export default function Navbar() {
             <Link href="/precios" className="hover:underline">
               Precios
             </Link>
-            <Link href="#" className="hover:underline">
+            <button onClick={() => scrollToSection("contacto")} className="hover:underline">
               Ayuda
-            </Link>
-            <Link href="#" className="flex items-center hover:underline">
+            </button>
+            {/* <Link href="#" className="flex items-center hover:underline">
               <User size={14} className="mr-1" />
               <span>Mi cuenta</span>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
 
       {/* Main navbar */}
-      <div className="bg-white py-2 px-4">
+      <div className="bg-white py-2 px-8">
         <div className="container mx-auto flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <Image src={logo} alt="Logo" width={300} height={300} />
@@ -68,7 +69,7 @@ export default function Navbar() {
           </Link>
 
           {/* Search bar */}
-          <div className="hidden md:flex flex-1 max-w-xl mx-4">
+          {/* <div className="hidden md:flex flex-1 max-w-xl mx-4">
             <div className="relative w-full">
               <input
                 type="text"
@@ -77,10 +78,14 @@ export default function Navbar() {
               />
               <Search className="absolute right-3 top-2.5 text-gray-400" size={20} />
             </div>
-          </div>
+          </div> */}
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex items-center space-x-6">
+          {/* DarkMode  */}
+
+          {/* <ThemeToggle /> */}
+          
             <button
               onClick={() => scrollToSection("cabanas")}
               className="text-gray-700 hover:text-[#F1B140] font-medium"
@@ -117,11 +122,11 @@ export default function Navbar() {
           </nav>
 
           {/* Mobile search button */}
-          <div className="md:hidden">
+          {/* <div className="md:hidden">
             <button className="p-2">
               <Search size={20} />
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
 

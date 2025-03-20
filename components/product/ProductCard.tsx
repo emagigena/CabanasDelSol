@@ -59,7 +59,7 @@ export default function ProductCard({ product }) {
                 <div>
                   <p className="discount-text mt-1 font-bold uppercase">
                     <LocalOfferIcon color="inherit" />
-                    ¡10% OFF DIAS DE SEMANA!
+                    ¡Descuentos por temporada!
                   </p>
                 </div>
               </div>

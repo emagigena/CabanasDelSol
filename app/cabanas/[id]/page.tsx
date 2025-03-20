@@ -67,7 +67,7 @@ export default function CabinPage({ params }: { params: { id: string } }) {
                   <h1 className="text-2xl font-bold text-gray-900">{cabin.name}</h1>
                   <div className="bg-[#F1B140] text-white px-3 py-1 rounded-md text-sm font-bold">
                     <Tag size={14} className="inline mr-1" />
-                    10% OFF días de semana
+                    ¡Descuentos por temporada!
                   </div>
                 </div>
 

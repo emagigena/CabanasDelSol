@@ -31,7 +31,6 @@ export default function Layout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Navbar {...navbarProps} />
 
       <main className="flex-grow pt-[104px]">{children}</main>

@@ -17,7 +17,7 @@ export default function PriceTable() {
               <h3 className="text-xl font-bold">Tarifas por día</h3>
               <div className="flex items-center bg-white text-[#F1B140] px-3 py-1 rounded-full text-sm font-bold">
                 <Tag size={14} className="mr-1" />
-                10% OFF días de semana
+                ¡Descuentos por temporada!
               </div>
             </div>
           </div>

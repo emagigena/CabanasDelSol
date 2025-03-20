@@ -38,7 +38,7 @@ export default function CabinCard({ cabin }: CabinCardProps) {
           {/* Discount badge */}
           <div className="absolute top-3 right-3 bg-[#F1B140] text-white px-3 py-1 rounded-md text-sm font-bold">
             <Tag size={14} className="inline mr-1" />
-            10% OFF días de semana
+            ¡Descuentos por temporada!
           </div>
         </div>
       {/* </Link> */}
@@ -66,8 +66,8 @@ export default function CabinCard({ cabin }: CabinCardProps) {
         <div className="flex justify-between items-center">
           <div>
             <p className="text-sm text-gray-500">Desde</p>
-            <p className="text-xl font-bold text-[#F1B140]">$55.000</p>
-            <p className="text-xs text-gray-500">por noche para 2 personas</p>
+            <p className="text-xl font-bold text-[#F1B140]">$ {cabin.price}</p>
+            <p className="text-xs text-gray-500">por noche para {cabin.maxCapacity} personas</p>
           </div>
           <ReservationModal cabin={cabin} />
         </div>
