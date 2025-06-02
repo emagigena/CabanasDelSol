@@ -23,7 +23,7 @@ export default function ReservationModal({ cabin }: ReservationModalProps) {
         onClick={openModal}
         className="bg-[#F1B140] hover:bg-[#e09c20] text-white font-medium px-4 py-2 rounded transition-colors duration-300"
       >
-        ¡Reservar!
+        Conocela Aquí
       </button>
 
       {isOpen && (
