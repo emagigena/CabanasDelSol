@@ -38,7 +38,7 @@ export default function PriceTable() {
                       <span>Para 2 personas</span>
                     </div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$60.000 por día</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$80.000 por día</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 whitespace-nowrap">
@@ -47,7 +47,7 @@ export default function PriceTable() {
                       <span>Para 3 personas</span>
                     </div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$70.000 por día</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$90.000 por día</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 whitespace-nowrap">
@@ -56,7 +56,7 @@ export default function PriceTable() {
                       <span>Para 4-5 personas</span>
                     </div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$80.000 por día</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$100.000 por día</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 whitespace-nowrap">
@@ -65,7 +65,7 @@ export default function PriceTable() {
                       <span>Para 6 personas</span>
                     </div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$110.000 por día</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$120.000 por día</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 whitespace-nowrap">
@@ -74,7 +74,7 @@ export default function PriceTable() {
                       <span>Para 7-8 personas</span>
                     </div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$120.000 por día</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$160.000 por día</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 whitespace-nowrap">
@@ -83,7 +83,7 @@ export default function PriceTable() {
                       <span>Para 9-10 personas</span>
                     </div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$180.000 por día</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$200.000 por día</td>
                 </tr>
               </tbody>
             </table>
