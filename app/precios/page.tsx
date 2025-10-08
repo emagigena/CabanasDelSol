@@ -43,7 +43,7 @@ export default function PreciosPage() {
                 <p className="text-gray-600 mt-2">Lo único que NO incluyen las cabañas son toallas y toallones.</p>
                 <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-md">
                   <p className="text-sm text-yellow-800">
-                    <strong>Nota:</strong> Las visitas a pasar el día tienen un costo de $8000 por persona, a partir de
+                    <strong>Nota:</strong> Las visitas a pasar el día tienen un costo de $10.000 por persona, a partir de
                     los 3 años.
                   </p>
                 </div>
