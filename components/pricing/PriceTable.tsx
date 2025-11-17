@@ -85,6 +85,15 @@ export default function PriceTable() {
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$200.000 por día</td>
                 </tr>
+                <tr className="hover:bg-gray-50">
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    <div className="flex items-center">
+                      <Users size={18} className="text-[#F1B140] mr-2" />
+                      <span>Para 14 personas</span>
+                    </div>
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-right font-medium">$300.000 por día</td>
+                </tr>
               </tbody>
             </table>
           </div>
